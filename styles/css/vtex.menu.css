@@ -1,0 +1,225 @@
+.menuContainerNav {
+    align-items: center;
+    display: flex;
+    margin-right: 26px;
+}
+.styledLinkContent {
+    font-weight: 700;
+}
+.submenuContainer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+.submenu .menuContainer {
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+}
+.submenu  .styledLinkContent {
+    font-weight: 500;
+}
+.submenuWrapper {
+    right: 0px;
+    left: 22%;
+    margin: 0 auto;
+    width: 49%;
+    z-index: 9999999999;
+    box-shadow: 2px 7px 13px grey;
+    padding: 20px 30px 50px 30px;
+    
+}
+/*nuevos*/
+.menuContainer {
+    width: auto;
+    font-size: 10px;
+    margin: 0;
+    padding: 0 0px;
+}
+
+.submenu .menuItem {
+    min-height: 24.8px;
+}
+
+.styledLinkContent {
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.styledLinkContent--burguerIcon{
+    text-align: left;
+    display: block;
+    background: url(https://impormedical.vteximg.com.br/arquivos/burguerDeskt.png) no-repeat;
+    background-size: 32%;
+    font-size: 10px;
+    display: block;
+    width: 79px;
+    font-size: 0;
+    height: 20px;
+    margin-top: -4px;
+}
+.submenu .menuItem:first-child  .styledLinkContent {
+    font-weight: 700;
+}
+.styledLinkContent:hover{
+    text-decoration: underline;
+}
+.styledLinkContent--marca1,.styledLinkContent--marca2,.styledLinkContent--marca3,.styledLinkContent--marca4,.styledLinkContent--marca5,
+.styledLinkContent--marca6,.styledLinkContent--marca7,.styledLinkContent--marca8,.styledLinkContent--marca9,
+.styledLinkContent--marca10,.styledLinkContent--marca11,.styledLinkContent--marca12,.styledLinkContent--marca13,
+.styledLinkContent--marca14,.styledLinkContent--marca15,.styledLinkContent--marca16
+{
+    font-size: 0;
+}
+.styledLinkContent--marca1::before{
+    content: "";
+    background: url(https://pepegangastilotex.vtexassets.com/arquivos/Logo%20Viniball_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca2::before{
+    content: "";
+    background: url(https://pepegangastilotex.vtexassets.com/arquivos/Logo%20Bium-1_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca3::before{
+    content: "";
+    background: url(https://pepegangastilotex.vtexassets.com/arquivos/Logo%20Essenza_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca4::before{
+    content: "";
+    background: url(https://pepegangastilotex.vtexassets.com/arquivos/Logo%20Soye%20Kids_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca5::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20So%20Young.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca6::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Stilocafe_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca7::before{
+    content: "";
+    background: url(https://pepegangastilotex.vtexassets.com/arquivos/Logo%20Zoom-1_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca8::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Cybex_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca9::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20GB_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca10::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Joovy_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca11::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Joseph%20Joseph_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca12::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Maclaren_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca13::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Uppababy_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca14::before{
+    content: "";
+    background: url(https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Zuru.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca15::before{
+    content: "";
+    background: url(https://pepegangastilotex.vtexassets.com/arquivos/Logo%20Avengers_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.styledLinkContent--marca16::before{
+    content: "";
+    background: url(https://pepegangastilotex.vtexassets.com/arquivos/Logo%20Baby%20Shark_Mesa%20de%20trabajo%201.png)no-repeat;
+    background-position: center;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.menuItem--final{
+    border-top: 1px solid;
+    padding-top: 6px;
+}
+.styledLinkContainer--burguerIcon{
+    margin-left: 0;
+    margin-right: 50px;
+}

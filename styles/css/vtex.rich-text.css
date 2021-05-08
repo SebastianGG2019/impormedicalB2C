@@ -1,0 +1,152 @@
+.link--help-message {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+.paragraph{
+  padding: 0;
+  margin: 0;
+}
+.heading--textosPrinc{
+  font-size: 32px;
+  margin: 0px 0 10px 0;
+  color: #0f0095;
+}
+.headingLevel3--textosPrinc{
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+.wrapper--textosPrinc {
+  margin: -36px 0 0 0;
+}
+.paragraph--textoscentro{
+  font-size: 12px;
+}
+.paragraph--textoscentro{
+  margin: 0 16px 0 0;
+  min-width: 130px;
+}
+.paragraph--titleF{
+  color:#ffc100;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10px 0 14px 0;
+}
+.paragraph--textFoo1{
+  color: white;
+  font-size: 12px;;
+}
+.link--textFoo, .paragraph--textFoo{
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 20px;
+  text-decoration: none;
+}
+.paragraph--textfool{
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+}
+.container--textfool{
+  position: absolute;
+  right: -49px;
+  top: -12px;
+}
+.wrapper--about {margin: 0 100px 100px 100px;}
+
+.wrapper--textoquien {
+    justify-content: center !important;
+    display: block;
+}
+
+.container--textoquien {
+    justify-content: center;
+}
+
+.headingLevel2 {
+    font-size: 21px;
+}
+.container--textostilo {
+  margin: 0 100px 0 100px;
+}
+.listItem--about, .paragraph--about{
+  line-height: 25px;
+  font-size: 14px;
+}
+.link--Pedidos{
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+}
+.wrapper--categoriaPrinci::before{
+  content: "";
+  background-image: url("https://impormedical.vteximg.com.br/arquivos/icon_sillaruedas.png");
+}
+.wrapper--categoriaPrinci{
+  display: flex;  
+}
+.link--CategoriaPrin1, .link--CategoriaPrin2, .link--CategoriaPrin3, .link--CategoriaPrin4{
+  margin: 0 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+.container--CategoriaPrin2::before{
+  content: "";
+    text-align: left;
+    display: block;
+    background: url(https://impormedical.vteximg.com.br/arquivos/icon_sillaruedas.png) no-repeat;
+    background-size: 100%;
+    font-size: 10px;
+    display: block;
+    width: 21px;
+    height: 28px;
+    margin-top: 0px;
+}
+.container--CategoriaPrin3::before{
+  content: "";
+  text-align: left;
+  display: block;
+  background: url(https://impormedical.vteximg.com.br/arquivos/icon_profesion.png) no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 23px;
+  height: 27px;
+  margin-top: 0px;
+}
+.paragraph--titleF:last-child{
+  justify-content: center;
+}
+.container--CategoriaPrin4::before{
+  content: "";
+    text-align: left;
+    display: block;
+    background: url(https://impormedical.vteximg.com.br/arquivos/icon_promociones.png) no-repeat;
+    background-size: 101%;
+    font-size: 10px;
+    display: block;
+    width: 32px;
+    height: 30px;
+    margin-top: 0px;
+}
+.container--CategoriaPrin1::before{
+  content: "";
+  text-align: left;
+  display: block;
+  background: url(https://impormedical.vteximg.com.br/arquivos/icon_paracuidado.png) no-repeat;
+  background-size: 100%;
+  font-size: 10px;
+  display: block;
+  width: 24px;
+  height: 26px;
+  margin-top: 0px;
+}
+.container--CategoriaPrin1, .container--CategoriaPrin2, .container--CategoriaPrin3,.container--CategoriaPrin1{
+  margin-right: 30px;
+}

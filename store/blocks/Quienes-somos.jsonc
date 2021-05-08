@@ -1,0 +1,39 @@
+{
+    "store.custom#about-us": {
+      "blocks": [
+        "flex-layout.row#about-us"
+      ]
+    },
+  
+    "flex-layout.row#about-us": {
+      "children": [
+        "flex-layout.col#text-about-us"
+      ]
+    },
+  
+    "flex-layout.col#text-about-us": {
+      "children": [
+        "rich-text#title-about-us",
+        "rich-text#about-us"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true
+      }
+    },
+  
+    "rich-text#title-about-us": {
+      "props": {
+        "text":
+        "# Quienes Somos.",
+        "blockClass": "textoquien"
+      }
+    },
+  
+    "rich-text#about-us": {
+      "props": {
+"text": "Somos una empresa ética que funciona bien con grandes o pequeñas empresas, con un nivel muy alto de satisfacción del cliente. Buscamos en todo el mundo los mejores productos a un precio asequible, permitiéndonos competir en diferentes nichos de mercado. \n ## LEMA ## \n En Stilotex exploramos el mundo, para traerte lo mejor de la industria textil y productos de grandes marcas que te hagan brillar, renacer, ganar, gritar y sobre todo VIVIR. \n ## MISION ##  \n En Stilotex distribuimos, vivimos y respiramos nuestras marcas. Somos una empresa que explora y empodera a su gente con sueños; gente hermosa y bacana que es nuestra familia. Una familia innovadora y creativa que además de gozársela, cumple con las metas que se propone.     Desde 1992 más que una empresa somos un equipo que incursiona en el campo textil y líneas de negocio: Hogar, Hobbies, Bebes y Moda Infantil, a través de grandes marcas: propias, representadas y licenciadas.  \n ## VISION ## \n  Empresa:  Crear la mejor compañía para trabajar en Colombia. \n  Gente:  Empoderar a nuestra gente con sueños, formando un equipo exitoso que se la goce trabajando sabroso, incentivando un crecimiento tanto empresarial como personal \n  Líneas de Negocio y Marcas:  Ofrecer al mercado productos y telas innovadoras, logrando satisfacer los deseos y las necesidades de las personas. \n  Comunidad (Filantropía):  Sabemos que somos parte del progreso de nuestro país, por eso en Stilotex, apoyamos a fundaciones participando en actividades e integrándonos con la labor y  la esencia de cada una.  ",
+        "blockClass": "about"
+      }
+    }
+  }

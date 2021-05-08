@@ -1,0 +1,20 @@
+.product-identifier__label, .product-identifier__separator, .product-identifier__value
+{
+  color: black !important;
+  font-size: 12px;
+}
+.product-identifier__separator::before{
+  content: "REF";
+  font-size: 13px;
+}
+.product-identifier--productReference{
+  display: block;
+  margin-top: 5px;
+}
+.product-identifier__label{
+  font-size: 0px;
+
+}
+.vtex-button__label{
+  display: none !important;
+}

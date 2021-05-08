@@ -1,0 +1,204 @@
+.searchResultContainer{
+    padding: 0;
+    margin: 0;
+}
+.galleryTitle--layout{
+    margin: 7px 100px 0 100px;
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 20px;
+    display: block;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 21px;
+    padding-top: 9px;
+}
+.gallery {
+    padding: 0;
+}
+.orderByText {
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    height: 30px;
+    padding: 5px;
+    color: #333;
+    font-size: 15px;
+    line-height: 30px;
+}
+.showingProducts {
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    height: 30px;
+    padding: 5px;
+    color: #333;
+    font-size: 13px;
+    line-height: 30px;
+}
+.filterMessage {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.filterTitle{
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.filter__container{
+    border-bottom: 1px solid;
+}
+.categoryItemName{
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 3px;
+    color: black;
+}
+
+.categoryItemChildren {
+    font-size: 14px;
+    color: black;
+}
+.filter__container--selectedFilters .filterItem :global(.vtex-checkbox__label) {
+    font-size: 15px;
+    color: black;
+    font-weight: 100;
+    border: 1px solid;
+    padding: 3px;
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 0px !important;
+}
+
+.categoryItemChildrenContainer :global(.vtex__icon-close) {
+    padding: 0 28px 0 0;
+    color: black;
+}
+.filterItem :global(.vtex-checkbox__inner-container){
+    border: 1px solid black;
+}
+.selectedCategoryName {
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.filterItem :global(.vtex__icon-check) {
+    color: black;
+    width: 10px;
+    height: 10px;
+}
+
+.filterItem :global(.vtex-checkbox__box-wrapper) {
+    width: 10px;
+    height: 10px;
+}
+.filterItem :global(.vtex-checkbox__container) {
+    width: 10px;
+    margin: 4px 6px 0 0;
+    height: 10px;
+}
+.filterItem :global(.vtex-checkbox__inner-container) {
+    width: 10px;
+    height: 10px;
+}
+.filterItem :global(.vtex-checkbox__line-container) {
+    padding: 0 5px;
+}
+.filter__container .caretIcon{
+    position: absolute;
+}
+.caretIcon{
+    color: black;
+    width: 15px;
+    height: 15px;
+    padding: 0 0px 0 0;
+}
+.filter__container{
+    padding: 0 10px;
+    margin: 0 0 0px 0;
+    border-top: 1px solid;
+    border-bottom: 0;
+}
+.filter__container--title{
+    border: none;
+}
+.showingProducts {
+    text-align: end;
+}
+.buttonShowMore :global(.vtex-button__label){
+    background: #ffc100;
+    color: black;
+    padding: 10px 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 0 0 0 0;
+    text-transform: uppercase;
+}
+.buttonShowMore--layout{
+    margin: 40px 0 50px 0;
+}
+.searchResultContainer {
+    max-width: 100%;
+}
+.galleryItem--normal{
+    height: 410px;
+}
+.filter__container--title{
+    display: none;
+}
+.orderByOptionItem {
+    min-width: 242px;
+}
+.orderByOptionsContainer {
+    margin-top: 31px;
+}
+.filterSelected .filterTitle {
+    font-size: 0;
+    color: #23169d;
+}
+.filterSelected .filterTitle::before{
+    content: "FILTROS SELECCIONADOS: ";
+    font-size: 15px;
+    letter-spacing: -0.5px;
+}
+.filter__container--selectedFilters{
+    background-color: white;
+    border: 0;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+.filter__container--selectedFilters  :global(.vtex-checkbox__line-container){
+    padding: 0 34px 0 2px;
+}
+.filter__container--selectedFilters  :global(.vtex-checkbox__line-container)::before{
+    content: "X";
+    position: absolute;
+    right: 0px;
+    font-weight: bold;
+    color:#23169d;
+    font-size: 15px;
+    border: 1px solid;
+    padding: 3px 10px;
+    z-index: 9;
+}
+.filterItem--selected{
+    margin-bottom: 5px;
+}
+.filterItem--selected :global(.vtex-checkbox__container) {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 9999;
+    opacity: 0;
+}
+@media (max-width: 600px) {
+    .galleryItem--normal {
+        height: auto !important;
+        max-width: 50% !important;
+    }
+}

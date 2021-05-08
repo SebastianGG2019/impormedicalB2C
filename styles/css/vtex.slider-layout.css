@@ -1,0 +1,72 @@
+.imageElement{
+    max-width: inherit;
+}
+.sliderLayoutContainer--carousel1{
+  margin: 0 0 50px 0;
+}
+.vtex-button__label{
+  display: none !important;
+}
+.sliderLayoutContainer--carousel{
+  background: #ffc100;
+  padding-bottom: 30px;
+}
+.sliderLayoutContainer--Cmarca{
+  margin: -135px 100px 100px 100px;
+  background: white;
+  width: 85%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.sliderTrackContainer--Cmarca{
+  padding: 22px 104px 22px 0;
+}
+
+.slide--Cmarca--visible{
+  transform:translateX(-40px) ;
+  width: 6.16667% !important;
+}
+.sliderArrowsContainer--Cmarca{
+  top: 120px; 
+  background-color: black;
+}
+.caretIcon--Cmarca{
+  color: #1a0888;
+  width: 60px;
+  height: 60px;
+}
+.sliderLeftArrow--Cmarca{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.slide--bannersecun{
+  margin: 35px 0 20px 0;
+}
+.sliderLeftArrow--mediosP .caretIcon--mediosP{
+  margin: 0 0 0 -12px;
+  width: 15px;
+}
+.sliderRightArrow--mediosP .caretIcon--mediosP{
+  margin: 0 -25px 0 0px;
+  width: 15px;
+}
+.slide--mediosP {
+  max-width: 500px;
+}
+.slide--Cmarca--firstVisible{
+  opacity: 0.5;
+}
+.slide--Cmarca--lastVisible{
+  opacity: 0.5;
+}
+.slide--hidden{
+  background: black;
+  z-index: 99999;
+  opacity: 0.5;
+
+}
+.caretIcon--Cmarca::before{
+  content: "";
+  width: auto;
+  height: 100%;
+  position: absolute;
+}

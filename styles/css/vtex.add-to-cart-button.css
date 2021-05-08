@@ -1,0 +1,70 @@
+.buttonDataContainer{
+  background: #ffc100;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  padding: 21px 0 17px 0;
+  width: 100%;
+  color: #140d2e;
+  border-radius: 5px;
+  margin-top: 5px;
+  text-transform: uppercase;
+
+}
+.buttonDataContainer--onpage{
+  height: 62px;
+  margin: 0;
+}
+
+.buttonDataContainer--productcheckout{
+  background-color: white;
+  margin-top: 10px;
+  border: 2px solid #8678c8 ;
+  color: #8678c8 ;
+  border-radius: 5px;
+  height: 62px;
+}
+.buttonText--onpage{
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  color: #191531 !important;
+}
+.buttonDataContainer--productcheckout:hover{
+  background: white;
+}
+.buttonDataContainer:hover{
+  background: #ffc100;
+}
+
+.vtex-button__label{
+  padding: 0 !important;
+}
+.buttonText{
+  font-size: 13px;
+  text-transform: initial;
+  min-width: 100%;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vtex-button__label{
+  display: none !important;
+}
+.buttonText{
+  color: black;
+  font-weight: 600 !important;
+  width: 100%;
+  margin: -2px 0 0 0;
+  text-transform: uppercase;
+}
+.buttonText--productcheckout::before{
+  font-size: 16px;
+  content: "COMPRAR AHORA";
+  color: #191531;
+
+}
+.buttonText--productcheckout{
+  font-size: 0;
+  font-weight: 400;
+}

@@ -1,0 +1,6 @@
+.dotsContainer{
+    display: none;
+}
+.slide--Cmarca--visible:hover{
+    background-color: black;
+}

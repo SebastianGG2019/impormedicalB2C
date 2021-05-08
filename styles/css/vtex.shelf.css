@@ -1,0 +1,54 @@
+.container{
+  margin: 0 100px 0 100px;
+  padding-bottom: 44px;
+}
+.title{
+  display: none;
+}
+.shelfContentContainer{
+  padding: 15px 0 0 0;
+}
+.sliderContainer {
+  max-width: 100%;
+}
+.arrowLeft {
+  left: -10px;
+}
+.arrowRight {
+  right: -10px;
+}
+.relatedProducts .shelfContentContainer {
+  margin:0 100px 0 100px;
+}
+.relatedProducts{
+  margin-bottom: 40px;
+}
+.arrowLeft::before {
+  content: "";
+  background: url(https://impormedical.vtexassets.com/arquivos/arrowleft.png)no-repeat;
+  background-size: 100%;
+  display: block;
+  width: 30px;
+  height: 62px;
+  top: -52px;
+  transition: all 40ms;
+  left: -19px;
+  position: absolute;
+}
+.arrowRight::before{
+  content: "";
+    background: url(https://impormedical.vtexassets.com/arquivos/arrowrigth.png)no-repeat;
+    background-size: 100%;
+    display: block;
+    width: 30px;
+    height: 62px;
+    margin-top: 0px;
+    top: -52px;
+    transition: all 40ms;
+    margin-right: 5px;
+    position: absolute;
+    left: 10px;
+}
+.caretIcon{
+  opacity: 0;
+}

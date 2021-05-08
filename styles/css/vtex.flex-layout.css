@@ -1,0 +1,203 @@
+.flexRow--Pre-header {
+    background: #140d2e;
+    height: auto;
+}
+.flexCol--espacio {
+    height: 50%;
+}
+.stretchChildrenWidth.flex{
+  margin: 20px 0 0 0;
+}
+.flexColChild--buyc{
+  max-height: 20px;
+
+}
+.flexRow--headerCate{
+  padding: 10px 50px;
+  margin-left: 13px;
+}
+
+.flexRow--categorys{
+  margin: 0;
+}
+.flexCol--textosIcno1, .flexCol--textosIcno2, .flexCol--textosIcno3{
+  display: flex;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  flex-direction: initial;
+  justify-content: start;
+}
+.flexRowContent--medios{
+  width: auto;
+}
+.flexColChild--textosIcno1, .flexColChild--textosIcno2, .flexColChild--textosIcno3{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.flexRowContent--medios{
+  margin: 100px 100px 100px 80px;
+}
+.flexCol--textosIcno3{
+  max-width: 500px;
+}
+.flexRow--footercon{
+  margin: 0px 100px 40px 100px;
+  padding-bottom: 10px;
+
+}
+.flexRow--footerimg{
+  filter: invert(1);
+  margin: 30px 80px 30px 80px ;
+}
+.flexColChild--footerC{
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+  display: block;
+  height: auto !important;
+  margin-bottom: 10px;
+
+}
+.flexRowContent--footercon .stretchChildrenWidth:last-child {
+  width: 38% !important;
+}
+
+.flexRow--lastF{
+  margin: 10px 35px 0px;
+  background: #140d2e;
+  justify-content: space-between;
+  padding: 30px 100px;
+  border-top: 1px solid #848484dd;
+
+}
+.flexRowContent--lastF {
+  align-items: center;
+  width: 87%;
+  margin: 0 auto; 
+}
+.stretchChildrenWidth{
+  position: relative;
+}
+.flexRow--contenedorC{
+  margin: 0 100px 0 100px;
+}
+.flexRow--headerC{
+  background-color: white;
+}
+.flexRow--product{
+  margin: 0 100px 0 100px;
+}
+.flexRowContent--product{
+  padding-top: 0px;
+}
+.flexCol--buyc{
+  padding: 0px 0 15px 0;
+}
+.flexColChild--productbuy:global(.vtex-button){
+  height: 30px;
+
+}
+.flexColChild--productbuy:global(.vtex-button__label){
+  height: 30px;
+  width: 300%;
+}
+.flexRowContent--productbuy{
+  border-radius: 25px;
+  align-items: center;
+  font-size: 18px;
+}
+
+.flexRow--productbuy {
+  display: flex;
+}
+.flexCol--buyc :global(.vtex-button){
+  width: 100%  !important;
+}
+.flexCol--buyc :global(.vtex-button__label){
+  width: 100%  !important;
+  padding: 0  !important;
+  min-height: 25px;
+}
+/*Inicio estilos*/
+.flexRowContent--productbuy :global(.vtex-button__label){
+  max-height: 40px;
+  padding: 0 !important;
+  width: 100% !important;
+}
+.flexRowContent--productbuy :global(.vtex-button){
+  width: 100% !important;
+}
+.flexRowContent--productbuy  .stretchChildrenWidth{
+  padding: 0;
+  margin: 0 10px 0 0;
+}
+.flexRow--mosaico{
+  padding: 70px 80px;
+  background: #eaeaeadd;
+}
+.flexColChild--imagedob{
+  margin: 0px 0 10px 0;
+}
+.flexRowContent--mosaico .stretchChildrenWidth:first-child {
+  width: 75% !important;
+  margin: 0 10px;
+}
+
+.flexRowContent--mosaico .stretchChildrenWidth:last-child {
+  width: 24%!important;
+  padding: 0px 0;
+}
+.flexRowContent--imageC .stretchChildrenWidth:first-child {
+  width: 67% !important;
+}
+
+.flexRowContent--imageC .stretchChildrenWidth:last-child {
+  width: 32.9% !important;
+}
+.flexRowContent--imageCi .stretchChildrenWidth:first-child {
+  width: 32.9% !important;
+}
+
+.flexRowContent--imageCi .stretchChildrenWidth:last-child {
+  width: 67% !important;
+}
+.flexRow--BannerDosMosaico{
+  padding: 0 90px;
+}
+.flexRowContent--headerC{
+  padding: 0 90px 0 100px;
+  background-color: #dedede;
+}
+.flexRowContent--Pre-header{
+  padding: 0 100px;
+}
+.flexRow--cantidadC:hover .flexColChild--buyc{
+  display: block;
+  transition: all .5s;
+}
+.flexColChild--productC{
+  height: auto !important
+}
+.flexColChild--productbuy :global(.vtex-button__label){
+  padding: 20px 0;
+  width: 343px;
+  border-top: 0;
+}
+.flexCol--buyc :global(.vtex-button){
+  opacity: 0;
+}
+.flexRow--barra-Ordenar{
+  background-color: white;
+  margin: -5px 2.6% 1.6%;
+  border-radius: 2px;
+  padding-left: 10px;
+}
+.flexColChild--itemsC{
+  opacity: 0;
+}
+@media (max-width: 600px) {
+  .flexRow--contenedorC {
+    margin: 0 !important;
+  }
+}

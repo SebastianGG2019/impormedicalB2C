@@ -1,0 +1,84 @@
+.contentContainer{
+    background: #e3e3e3;
+}
+.listItemActive :global(.vtex-button__label){
+    color: #191531 !important;
+    font-weight: 600;
+}
+.container--home{
+    margin: 40px 0 0 0;
+}
+.listItemActive {
+    background: #ffc100 !important;
+}
+.listItem  {
+    margin: 0 5px;
+    background: #191531;
+    color: #ffc100;
+    width: 24%;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+} 
+.listItem:focus {
+    border:none;
+}
+.listItem :global(.vtex-button__label){
+    color: #ffc100;
+    letter-spacing: 1.5px;
+}
+.container--product{
+    margin: 0 100px 0 100px;
+}
+.container--product .contentItem {
+    padding: 2% 2% 2% 2%;
+}
+.container--product .listItemActive{
+    background: #f8f7f7 !important;
+    padding: 0 10px;
+}
+.container--product .listItem{
+    background: #0f0095 ;
+    padding: 0 10px;
+}
+.container--product .contentContainer{
+    background: #f8f7f7;
+}
+.container--product .listItem :global(.vtex-button__label){
+    color: white;
+    padding: 10px 15px !important;
+}
+.container--product .listItemActive :global(.vtex-button__label){
+    color: #0f0095 !important;
+}
+.specificationName {
+    display: none;
+}
+.specificationName {
+    display: none;
+}
+
+.specificationValue--first {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.groupName {
+    display: none;
+}
+.slide--firstVisible{
+    opacity: 0.5;
+}
+.listContainer--tabbersHome{
+    margin-bottom: 100px;
+}
+.contentItem {
+    margin-bottom: 60px;
+}
+.contentItem--tabbersVitrina {
+    margin-bottom: 0;
+    height: 481px;
+}
+.container--product .contentContainer  {
+    border-radius: 5px;
+}

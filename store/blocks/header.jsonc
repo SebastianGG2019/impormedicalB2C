@@ -1,0 +1,751 @@
+{
+//Bloques del header
+
+  "header": {
+    "blocks": [
+    "header-layout.desktop",
+    "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+    "header-layout.desktop",
+    "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+    "flex-layout.row#desktop",
+    "flex-layout.row#desktopPre"
+    ]
+  },
+
+//Preheader
+
+  "flex-layout.row#desktopPre": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass":"Pre-header"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "flex-layout.row#header1",
+      "flex-layout.col#spacer",
+      "flex-layout.col#skip-desktop"
+    ]
+  },
+  "flex-layout.col#skip-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["rich-text#headerc"]
+  },
+  "rich-text#headerc": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[](https://digitalepartner.com/PagosStilotex/formulario.html)",
+      "textColor": "black-90",
+      "font": "body",
+      "blockClass": "help-message"
+    }
+  },
+//header
+
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "headerC"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#search-bar",
+      "login",
+      "rich-text#misPedidos",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.col#search-bar":{
+    "props": {
+      "verticalAlign": "middle",
+      "width": "grow"
+    },
+    "children": ["search-bar"]
+  },
+  "search-bar":{
+    "props":{
+      "maxWidth": "100%"
+    }
+  },
+  "rich-text#misPedidos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[MIS PEDIDOS](https://digitalepartner.com/PagosStilotex/formulario.html)",
+      "blockClass": "Pedidos"
+    }
+  },
+  "login": {
+    "props": {
+      "iconLabel":"INGRESAR"
+    }
+  },
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#categorys"
+    ]
+  },
+  //Menu Categorys
+  "menu-item#categorys":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ingresa"
+      },
+      "blockClass":"burguerIcon"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category"]
+  },
+  "vtex.menu@2.x:submenu#category": {
+    "children": [
+      "vtex.menu@2.x:menu#Category1",
+      "vtex.menu@2.x:menu#Category2",
+      "vtex.menu@2.x:menu#Category3"  
+    ],
+    "props":{
+      "id":"menusecunario"
+    }
+  },
+  //Columnas Categorys
+  "vtex.menu@2.x:menu#Category1": {
+    "children": [
+      "menu-item#Category1",
+      "menu-item#Category2",
+      "menu-item#Category3",
+      "menu-item#Category4",
+      "menu-item#Category5",
+      "menu-item#Category6",
+      "menu-item#Category7",
+      "menu-item#Category8",
+      "menu-item#Category9",
+      "menu-item#Category10",
+      "menu-item#Category101"
+    ]
+  },
+  "vtex.menu@2.x:menu#Category2": {
+    "children": [
+      "menu-item#Category11",
+      "menu-item#Category12",
+      "menu-item#Category13",
+      "menu-item#Category14",
+      "menu-item#Category15",
+      "menu-item#Category16",
+      "menu-item#Category17",
+      "menu-item#Category18",
+      "menu-item#Category19",
+      "menu-item#Category20",
+      "menu-item#Category201"
+
+    ]
+  },
+  "vtex.menu@2.x:menu#Category3": {
+    "children": [
+      "menu-item#Category21",
+      "menu-item#Category22",
+      "menu-item#Category23",
+      "menu-item#Category24",
+      "menu-item#Category25",
+      "menu-item#Category26",
+      "menu-item#Category27",
+      "menu-item#Category28",
+      "menu-item#Category29",
+      "menu-item#Category30",
+      "menu-item#Category301"
+    ]
+  },
+  //Links productos
+  "menu-item#Category1":{
+    "props": {
+      "id": "title",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Deportes y Jugueteria",
+        "noFollow": false,
+        "tagTitle": "Title",
+        "text": "Deportes y Jugueteria"
+      }
+    }
+  },
+  "menu-item#Category2":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Balance Bike",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Balance Bike"
+      }
+    }
+  },
+  "menu-item#Category3":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/basketball?_q=basketball&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Basketball"
+      }
+    }
+  },
+  "menu-item#Category4":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/botella?_q=botella&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Botellas"
+      }
+    }
+  },
+  "menu-item#Category5":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/DEPORTES-Y-JUGUETERIA/FUTBOL",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Futbol"
+      }
+    }
+  },
+  "menu-item#Category6":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Deportes/Gimnasio",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Gimnasio"
+      }
+    }
+  },
+  "menu-item#Category7":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Jugueteria",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Jugueteria"
+      }
+    }
+  },
+  "menu-item#Category8":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Hogar/Articulos-para-el-hogar/Maletas",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Maletas"
+      }
+    }
+  },
+  "menu-item#Category9":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/DEPORTES-Y-JUGUETERIA/NATACION",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Natacion"
+      }
+    }
+  },
+  "menu-item#Category10":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/DEPORTES-Y-JUGUETERIA/OUTDOOR",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Outdoor"
+      }
+    }
+  },
+  "menu-item#Category101":{
+    "props": {
+      "id": "menu-item-categoria",
+      "blockClass":"final", 
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Deportes",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ver Todo"
+      }
+    }
+  },
+  "menu-item#Category11":{
+    "props": {
+      "id": "title",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Hogar",
+        "noFollow": false,
+        "tagTitle": "Title",
+        "text": "Hogar"
+      }
+    }
+  },
+  "menu-item#Category12":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/aseo?_q=aseo&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Aseo"
+      }
+    }
+  },
+  "menu-item#Category13":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Hogar/complementos",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Complementos de Baño"
+      }
+    }
+  },
+  "menu-item#Category14":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Hogar/Articulos-para-el-hogar",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Cuidado del Hogar"
+      }
+    }
+  },
+  "menu-item#Category15":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracion",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Decoración"
+      }
+    }
+  },
+  "menu-item#Category16":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mesa%20y%20cocina?_q=mesa%20y%20cocina&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Mesa y Cocina"
+      }
+    }
+  },
+  "menu-item#Category17":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/organizacion?_q=organizacion&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Organizacion"
+      }
+    }
+  },
+  "menu-item#Category18":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Ropa de Cama",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ropa de Cama"
+      }
+    }
+  },
+  "menu-item#Category19":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#Category20":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#Category201":{
+    "props": {
+      "id": "menu-item-categoria",
+      "blockClass":"final", 
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Hogar",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ver Todo"
+      }
+    }
+  },
+  "menu-item#Category21":{
+    "props": {
+      "id": "title",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Infantil",
+        "noFollow": false,
+        "tagTitle": "Title",
+        "text": "Infantil"
+      }
+    }
+  },
+  "menu-item#Category22":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ropa/niñas/accesorios?initialMap=c&initialQuery=ropa",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Accesorios de Ropa"
+      }
+    }
+  },
+  "menu-item#Category23":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/INFANTIL/ALIMENTACIoN-Y-LACTANCIA",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Alimentación y Lactancia"
+      }
+    }
+  },
+  "menu-item#Category24":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Bebes/Coches",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Coches para bebes"
+      }
+    }
+  },
+  "menu-item#Category25":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Bebes/Cuarto-del-Bebe",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Dormitorio Bebe"
+      }
+    }
+  },
+  "menu-item#Category26":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/INFANTIL/JUGUETES-DE-BEBE",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Juguetes de bebe"
+      }
+    }
+  },
+  "menu-item#Category27":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/INFANTIL",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Organizacion Bebe"
+      }
+    }
+  },
+  "menu-item#Category28":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bebe/ropa/ninos?_q=bebe&initialMap=ft&initialQuery=bebe&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ropa Bebe"
+      }
+    }
+  },
+  "menu-item#Category29":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Ropa Niña",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ropa Niña"
+      }
+    }
+  },
+  "menu-item#Category30":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Ropa Niño",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ropa Niño"
+      }
+    }
+  },
+  "menu-item#Category301":{
+    "props": {
+      "id": "menu-item-categoria",
+      "blockClass":"final", 
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/INFANTIL",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ver Todo"
+      }
+    }
+  },
+  //pre header
+  "flex-layout.row#header1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "headerCate"
+    },
+    "children": [
+      "rich-text#Category1",
+      "rich-text#Category2",
+      "rich-text#Category3",
+      "rich-text#Category4"
+    ]
+  },
+  "rich-text#Category1":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[PARA EL CUIDADO](https://digitalepartner.com/PagosStilotex/formulario.html)",
+      "blockClass": "CategoriaPrin1"
+    }
+  },
+  "rich-text#Category2":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[SILLAS DE RUEDAS](https://digitalepartner.com/PagosStilotex/formulario.html)",
+      "blockClass": "CategoriaPrin2"
+    }
+  },
+  "rich-text#Category3":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[PARA TU PROFESIÓN](https://digitalepartner.com/PagosStilotex/formulario.html)",
+      "blockClass": "CategoriaPrin3"
+    }
+  },
+  "rich-text#Category4":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[PROMOCIONES](https://digitalepartner.com/PagosStilotex/formulario.html)",
+      "blockClass": "CategoriaPrin4"
+    }
+  },
+  
+  //demas del header
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow",
+      "blockClass": "espacio"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://impormedical.vteximg.com.br/arquivos/logosiempresalud.png",
+      "width": "350",
+      "blockClass":"logoImg"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false
+    }
+  },
+  "drawer": {
+    "children": []
+  }
+}

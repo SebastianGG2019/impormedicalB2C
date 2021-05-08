@@ -1,0 +1,28 @@
+
+.input{
+      background: white;
+      border-radius: 21px;
+      border: 0px;
+      font-size: 12px;
+      text-indent: 15px;
+      text-align: inherit;
+      max-width: 100%;
+    }
+    .vtex-button__label{
+      padding: 0 !important;
+    }
+    .input{
+      border-radius: 0px  !important;
+      max-width: 100% !important;
+      width: 100% !important;
+    }
+    .input::placeholder{
+      color: black;
+    }
+    .hideDecorators{
+      width: auto;
+      max-width: 25px;
+  }
+  .hideDecorators{
+    height: auto;
+  }
