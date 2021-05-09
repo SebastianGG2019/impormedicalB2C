@@ -76,8 +76,8 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#search-bar",
-      "login",
       "rich-text#misPedidos",
+      "login",
       "minicart.v2"
     ]
   },
@@ -672,7 +672,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[PARA EL CUIDADO](https://digitalepartner.com/PagosStilotex/formulario.html)",
+      "text": "[MOVILIDAD](https://digitalepartner.com/PagosStilotex/formulario.html)",
       "blockClass": "CategoriaPrin1"
     }
   },
@@ -680,7 +680,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[SILLAS DE RUEDAS](https://digitalepartner.com/PagosStilotex/formulario.html)",
+      "text": "[CUIDADO EN EL HOGAR](https://digitalepartner.com/PagosStilotex/formulario.html)",
       "blockClass": "CategoriaPrin2"
     }
   },
@@ -688,7 +688,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[PARA TU PROFESIÓN](https://digitalepartner.com/PagosStilotex/formulario.html)",
+      "text": "[PROFESIONALES DE LA SALUD](https://digitalepartner.com/PagosStilotex/formulario.html)",
       "blockClass": "CategoriaPrin3"
     }
   },
@@ -696,7 +696,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[PROMOCIONES](https://digitalepartner.com/PagosStilotex/formulario.html)",
+      "text": "[TAPABOCAS Y DESINFECCIÓN](https://digitalepartner.com/PagosStilotex/formulario.html)",
       "blockClass": "CategoriaPrin4"
     }
   },
@@ -718,8 +718,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://impormedical.vteximg.com.br/arquivos/logosiempresalud.png",
-      "width": "350",
+      "url": "https://impormedical.vteximg.com.br/arquivos/logoimpormedical.png",
+      "width": "100",
       "blockClass":"logoImg"
     }
   },

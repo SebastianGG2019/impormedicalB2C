@@ -7,15 +7,9 @@
 .vtex-button__label{
   display: none !important;
 }
-.sliderLayoutContainer--carousel{
-  background: #ffc100;
-  padding-bottom: 30px;
-}
 .sliderLayoutContainer--Cmarca{
-  margin: -135px 100px 100px 100px;
-  background: white;
-  width: 85%;
-  border-radius: 10px;
+  width: 100%;
+  border-radius: 0px;
   overflow: hidden;
 }
 .sliderTrackContainer--Cmarca{

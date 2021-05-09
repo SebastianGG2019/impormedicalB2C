@@ -1,14 +1,25 @@
 .autoCompleteOuterContainer{
-  background: #ffc100;
+
   border: 2px solid #191531;
-  border-radius: 3px;
+  border-radius: 7px;
   margin: 1px;
   font-size: 12px;
   text-indent: 15px;
   text-align: inherit;
 }
+.autoCompleteOuterContainer :global(.vtex-input__suffix){
+  background: black !important;
+  width: 2%;
+  border-radius: 5px;
+}
 :global(.vtex-store__template){
-  background-color: #dddd;
+  background-color: #f4f4f4;
+}
+.searchBarContainer {
+  padding: 0 38px 0 5px;
+}
+.searchIcon {
+  color: white;
 }
 .c-muted-2 {
   display: none !important;
@@ -29,7 +40,8 @@
 } 
 .infoCardContainer--Mio{
   width: 100%;
-  min-height: 575px;
+  background: transparent;
+  min-height: 535px;
 }
 @media only screen and (min-width: 1500px) {
   .infoCardContainer--Mio{
@@ -62,9 +74,6 @@
 .infoCardCallActionContainer--Mio{
   text-decoration: none;
 }
-.infoCardContainer--Mio{
-  background: #ffc100;
-}
 .infoCardContainer--marcas,
 .infoCardContainer--marcas-icon1,.infoCardContainer--marcas-icon2,.infoCardContainer--marcas-icon3,.infoCardContainer--marcas-icon4,
 .infoCardContainer--marcas-icon5, .infoCardContainer--marcas-icon6, .infoCardContainer--marcas-icon7,
@@ -73,6 +82,7 @@
 .infoCardContainer--marcas-icon14{
   display: block;
   position: relative;
+  background: transparent;
 }
 .infoCardTextContainer--marcas, .infoCardImageContainer--marcas, 
 .infoCardTextContainer--marcas-icon1,.infoCardTextContainer--marcas-icon2,.infoCardTextContainer--marcas-icon3,.infoCardTextContainer--marcas-icon4,
@@ -147,10 +157,10 @@
   display: none;
 }
 .infoCardHeadline--segundo{
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 400;
   color: white;
-  margin-top: 70px;
+  margin-top: 99px;
   letter-spacing: 1px;
 }
 .infoCardCallActionText--segundo{
@@ -417,24 +427,24 @@
   position: relative;
 }
 .infoCardCallActionContainer--BannerDos{
-  background-color: #ffc100;
-  width: 95%;
-  bottom: 10px;
+  background-color: #deec00;
+  width: 37%;
+  bottom: 54px;
   position: absolute;
   border-radius: 5px;
   left: 0;
-  height: 70px;
-  margin: 0 3%;
+  height: auto;
+  margin: 0 auto;
+  right: 0;
   text-align: center;
   text-decoration: none;
   border: 0;
 }
 .infoCardCallActionText--BannerDos{
-  color: #191531;
+  color: #004590;
   text-decoration: none;
-  padding-top: 4px;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
 
 }
@@ -442,13 +452,13 @@
   color: white;
   position: absolute;
   width: 84%;
-  bottom: 120px;
+  bottom: 124px;
   left: 21px;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 40px;
 }
 .logoImage{
-  width: 245px;
+  width: 85px;
 }
 .infoCardImage--textfool2{
   width: 66%;
@@ -791,6 +801,7 @@
 .searchBarContainer .vtex-input-prefix__group {
   height: 38px;
   border-color: white;
+  
 }
 .autoCompleteOuterContainer:global(.vtex-input-prefix__group){
   border-color: white;
@@ -834,4 +845,75 @@
 }
 .imageElement--BannerProduct{
   margin-top: 10px;
+}
+.imageElementLink--imagec1::before {
+  content: "¿Porqué elegirnos?";
+  position: absolute;
+  top: 30%;
+  font-weight: 100;
+  font-size: 35px;
+  color: white;
+}
+.imageElementLink--imagec2::before {
+  content: "Tienda surtida";
+  position: absolute;
+  top: 0;
+  font-weight: 100;
+  left: -4px;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  background: #0000005c;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.imageElementLink--imagec3::before {
+  content: "Usuario interesado";
+  position: absolute;
+  top: 0;
+  font-weight: 100;
+  left: -4px;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  background: #0000005c;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.imageElementLink--imagec4::before {
+  content: "Servicio integral";
+  position: absolute;
+  top: 0;
+  font-weight: 100;
+  left: -4px;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  background: #0000005c;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.imageElementLink--imagec5::before {
+  content: "Gente informada";
+  position: absolute;
+  top: 0;
+  font-weight: 100;
+  left: -4px;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  background: #0000005c;
+  height: 98%;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }

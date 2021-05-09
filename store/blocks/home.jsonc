@@ -5,17 +5,17 @@
       "slider-layout#bannermarcas",
       "rich-text#title1",
       "shelf#demo1",
+      "flex-layout.row#home2",
+      "tab-layout#home",
+      "flex-layout.row#home1",
       "rich-text#title2",
       "shelf#demo2",
       "rich-text#title3",
-      "shelf#demo3",
-      "flex-layout.row#home1",
-      "tab-layout#home",
-      "flex-layout.row#home2"
+      "shelf#demo3"   
     ]
   },
   //Slider Principal
-    "slider-layout#text-test": {
+  "slider-layout#text-test": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -32,7 +32,7 @@
     "info-card#banner1":{
       "props":{
         "id":"texting",
-        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerB2C.jpg",
+        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/banner_desk.jpg",
         "callToActionText": "Ver más productos",
         "callToActionUrl": "#",
         "textPosition": "left",
@@ -44,7 +44,7 @@
     "info-card#banner2":{
       "props":{
         "id":"texting",
-        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerB2C.jpg",
+        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/banner_desk.jpg",
         "callToActionText": "Ver más productos",
         "callToActionUrl": "#",
         "textPosition": "left",
@@ -56,7 +56,7 @@
     "info-card#banner3":{
       "props":{
         "id":"texting",
-        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerB2C.jpg",
+        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/banner_desk.jpg",
         "callToActionText": "Ver más productos",
         "callToActionUrl": "#",
         "textPosition": "left",
@@ -68,7 +68,7 @@
     "info-card#banner4":{
       "props":{
         "id":"texting",
-        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerB2C.jpg",
+        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/banner_desk.jpg",
         "callToActionText": "Ver más productos",
         "callToActionUrl": "#",
         "textPosition": "left",
@@ -393,13 +393,13 @@
       "info-card#bannerDos1":{
         "props":{
           "id":"texting",
-          "imageUrl":"https://impormedical.vteximg.com.br/arquivos/BannerDos1.png",
+          "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannergrande1v2.png",
           "callToActionText": "Ver productos",
           "isFullModeStyle": true,
           "callToActionUrl": "#",
           "textPosition": "left",
           "textAlignment": "left",
-          "headline": "PERFECTO PARA DÍA DE TURNO",
+          "headline": "Empresas en crecimiento",
           "callToActionMode": "link",
           "blockClass":"BannerDos"
         }
@@ -407,13 +407,13 @@
       "info-card#bannerDOS2":{
         "props":{
           "id":"texting",
-          "imageUrl":"https://impormedical.vteximg.com.br/arquivos/BannerDos2.png",
+          "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannergrande2v2.png",
           "callToActionText": "Ver productos",
           "isFullModeStyle": true,
           "callToActionUrl": "#",
           "textPosition": "left",
           "textAlignment": "left",
-          "headline": "CUIDADO DE LOS MAS PEQUEÑOS",
+          "headline": "Complemento línea de oximetría",
           "callToActionMode": "link",
           "blockClass":"BannerDos"
         }
@@ -590,39 +590,39 @@
       },
       "image#mosaicoCom1":{
         "props":{
-          "src":"https://impormedical.vteximg.com.br/arquivos/BannerMovilidad.png",
+          "src":"https://impormedical.vteximg.com.br/arquivos/sec_baner1.png",
           "link":{
             "url":"#"
           },
           "title": "PARA EL CUIDADO DEL CORAZÓN",
-          "blockClass": "imagecomplG"
+          "blockClass": "imagec1"
         }
       },
       "image#mosaicoCom2":{
         "props":{
-          "src":"https://impormedical.vteximg.com.br/arquivos/bannersec2.png",
+          "src":"https://impormedical.vteximg.com.br/arquivos/sec_baner2.png",
           "link":{
             "url":"#"
           },
-          "blockClass": "imagecomplP"
+          "blockClass": "imagec2"
         }
       },
       "image#mosaicoCom3":{
         "props":{
-          "src":"https://impormedical.vteximg.com.br/arquivos/bannersec3.png",
+          "src":"https://impormedical.vteximg.com.br/arquivos/sec_baner4.png",
           "link":{
             "url":"#"
           },
-          "blockClass": "imagecomplP"
+          "blockClass": "imagec3"
         }
       },
       "image#mosaicoCom4":{
         "props":{
-          "src":"https://impormedical.vteximg.com.br/arquivos/Bannerterapia.png",
+          "src":"https://impormedical.vteximg.com.br/arquivos/sec_baner5.png",
           "link":{
             "url":"#"
           },
-          "blockClass": "imagecomplG"
+          "blockClass": "imagec4"
         }
       },
       "flex-layout.col#mosaico2":{
@@ -635,11 +635,11 @@
       },
       "image#mosaicoCom":{
         "props":{
-          "src":"https://impormedical.vteximg.com.br/arquivos/bannersec5.png",
+          "src":"https://impormedical.vteximg.com.br/arquivos/sec_baner3.png",
           "link":{
             "url":"#"
           },
-          "blockClass": "imagecompl"
+          "blockClass": "imagec5"
         }
       }
 }

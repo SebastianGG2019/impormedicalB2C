@@ -1,15 +1,18 @@
 .buttonDataContainer{
-  background: #ffc100;
+  background: #0070e0;
   height: 25px;
   display: flex;
   align-items: center;
   padding: 21px 0 17px 0;
   width: 100%;
-  color: #140d2e;
+  color: white;
   border-radius: 5px;
   margin-top: 5px;
   text-transform: uppercase;
 
+}
+:global(.vtex-add-to-cart-button-0-x-buttonText){
+  color: white !important; 
 }
 .buttonDataContainer--onpage{
   height: 62px;
@@ -33,7 +36,7 @@
   background: white;
 }
 .buttonDataContainer:hover{
-  background: #ffc100;
+  background: #0070e0;
 }
 
 .vtex-button__label{
@@ -52,8 +55,8 @@
   display: none !important;
 }
 .buttonText{
-  color: black;
-  font-weight: 600 !important;
+  color: white;
+  font-weight: 100 !important;
   width: 100%;
   margin: -2px 0 0 0;
   text-transform: uppercase;

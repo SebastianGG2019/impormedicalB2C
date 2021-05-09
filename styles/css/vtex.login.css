@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 .label{
   display: grid;
-  color: #191531!important;
+  color: #014694!important;
   text-transform: capitalize!important;
   font-size: 13px;
+  text-align: center;
   margin-top: 2px;
   text-decoration: underline;
 }
 .label::before{
-    content: "HOLA";
-    text-align: left;
+    content: "HOLA ALIAD@";
+    text-align: center;
     text-decoration: none !important;
     color: black;
     font-size: 10px;

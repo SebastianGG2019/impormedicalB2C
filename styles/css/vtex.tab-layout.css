@@ -2,29 +2,30 @@
     background: #e3e3e3;
 }
 .listItemActive :global(.vtex-button__label){
-    color: #191531 !important;
-    font-weight: 600;
+    font-size: 1.2rem;
 }
 .container--home{
     margin: 40px 0 0 0;
 }
 .listItemActive {
-    background: #ffc100 !important;
+    max-height: 41px !important;
+    margin: 0 0 0 5px!important;
 }
 .listItem  {
-    margin: 0 5px;
-    background: #191531;
-    color: #ffc100;
+    margin: 6px 0 0 5px;
+    background: #0070e0;
+    color: #dced00;
     width: 24%;
     text-align: center;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    max-height: 35px;
 } 
 .listItem:focus {
     border:none;
 }
 .listItem :global(.vtex-button__label){
-    color: #ffc100;
+    color: #dced00;
     letter-spacing: 1.5px;
 }
 .container--product{

@@ -4,7 +4,7 @@
 }
 .minicartIconContainer::before {
     content: "";
-    background: url(https://impormedical.vtexassets.com/arquivos/icono_carrito.png)no-repeat;
+    background: url(https://impormedical.vtexassets.com/arquivos/carrito.png)no-repeat;
     background-size: 100%;
     font-size: 10px;
     display: block;
@@ -16,7 +16,7 @@
     margin-right: 5px;
 }
 .minicartIconContainer::after {
-    content: "MI COMPRA";
+    content: "CARRITO";
     display: block;
     font-size: 12px;
     text-transform: capitalize;

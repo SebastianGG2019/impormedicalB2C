@@ -1,5 +1,5 @@
 .flexRow--Pre-header {
-    background: #140d2e;
+    background: #f4f4f4;
     height: auto;
 }
 .flexCol--espacio {
@@ -65,7 +65,7 @@
 
 .flexRow--lastF{
   margin: 10px 35px 0px;
-  background: #140d2e;
+  background: #212121;
   justify-content: space-between;
   padding: 30px 100px;
   border-top: 1px solid #848484dd;
@@ -163,11 +163,11 @@
   width: 67% !important;
 }
 .flexRow--BannerDosMosaico{
-  padding: 0 90px;
+  padding: 50px 90px 50px 90px;
 }
 .flexRowContent--headerC{
   padding: 0 90px 0 100px;
-  background-color: #dedede;
+  background-color: #f4f4f4;
 }
 .flexRowContent--Pre-header{
   padding: 0 100px;
