@@ -1,6 +1,6 @@
 .container{
   margin: 0 100px 0 100px;
-  padding-bottom: 44px;
+  padding-bottom: 0;
 }
 .title{
   display: none;
@@ -51,4 +51,33 @@
 }
 .caretIcon{
   opacity: 0;
+}
+@media (max-width: 600px) {
+  .container {
+    margin: 0 !important;
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+  .arrowRight::before {
+    display: none;
+  }
+  .shelfContentContainer {
+    padding: 0px 0 0 15px;
+    margin-bottom: 40px;
+  }
+  .slide{
+    width:  7.25% !important;
+  }
+  .relatedProducts .shelfContentContainer {
+    margin: 0 10px !important;
+  }
+  .slide {
+    width: 12.5%!important;
+  }
+  .arrowLeft {
+    display: none;
+  }
+  .container--vitrinaProduct .shelfContentContainer--vitrinaProduct{
+    padding: 0px 0 0 27px;
+  }
 }

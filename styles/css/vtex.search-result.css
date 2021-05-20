@@ -15,6 +15,7 @@
 }
 .gallery {
     padding: 0;
+    margin-left: 1%;
 }
 .orderByText {
     border: 0;
@@ -25,6 +26,7 @@
     padding: 5px;
     color: #333;
     font-size: 15px;
+    margin-right: 10px;
     line-height: 30px;
 }
 .showingProducts {
@@ -42,15 +44,17 @@
     font-size: 14px;
     font-weight: 700;
 }
-
+.filterAvailable{
+    padding: 14px 0;
+}
 .filterTitle{
-    color: black;
-    font-weight: 700;
-    font-size: 14px;
+    color: rgba(58, 58, 58, 0.867);
+    font-weight: 600;
+    font-size: 12px;
     text-transform: uppercase;
 }
 .filter__container{
-    border-bottom: 1px solid;
+    border-bottom: 1px solid rgba(58, 58, 58, 0.867);
 }
 .categoryItemName{
     font-size: 14px;
@@ -64,11 +68,12 @@
     color: black;
 }
 .filter__container--selectedFilters .filterItem :global(.vtex-checkbox__label) {
-    font-size: 15px;
-    color: black;
-    font-weight: 100;
-    border: 1px solid;
+    font-size: 13px;
+    color: rgba(58,58,58,0.867);
+    font-weight: 500;
+    border: 1px solid rgba(58,58,58,0.867);
     padding: 3px;
+    text-transform: uppercase;
 }
 :focus {
     outline: -webkit-focus-ring-color auto 0px !important;
@@ -79,7 +84,7 @@
     color: black;
 }
 .filterItem :global(.vtex-checkbox__inner-container){
-    border: 1px solid black;
+    border: 1px solid rgba(58,58,58,0.867);
 }
 .selectedCategoryName {
     padding: 0 10px;
@@ -113,7 +118,7 @@
     position: absolute;
 }
 .caretIcon{
-    color: black;
+    color: rgba(58,58,58,0.867);
     width: 15px;
     height: 15px;
     padding: 0 0px 0 0;
@@ -147,6 +152,7 @@
 }
 .galleryItem--normal{
     height: 410px;
+    padding: 0;
 }
 .filter__container--title{
     display: none;
@@ -163,7 +169,7 @@
 }
 .filterSelected .filterTitle::before{
     content: "FILTROS SELECCIONADOS: ";
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: -0.5px;
 }
 .filter__container--selectedFilters{
@@ -181,8 +187,8 @@
     right: 0px;
     font-weight: bold;
     color:#23169d;
-    font-size: 15px;
-    border: 1px solid;
+    font-size: 13px;
+    border: 1px solid rgba(58,58,58,0.867);
     padding: 3px 10px;
     z-index: 9;
 }
@@ -196,9 +202,175 @@
     z-index: 9999;
     opacity: 0;
 }
+.filterItem :global(.vtex-checkbox__label){
+    font-size: 12px;
+}
+.filterContent :global(.vtex-checkbox__container){
+    content: "";
+    background: white;
+    background-size: 100%;
+    font-size: 10px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-top: 0px;
+    top: 3px;
+    left: 0px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    transition: all 40ms;
+    margin-right: 5px;
+}
+.filterContent :global(.vtex-checkbox__inner-container){
+    display: none;
+}
+.filter__container--priceRange .filterTitle{
+    font-size: 0;
+}
+.filter__container--priceRange .filterTitle::before{
+    content: "FILTRO POR PRECIO";
+    font-size: 15px;
+    color: #0e0291;
+}
+.filter__container--priceRange :global(.vtex-slider__base){
+    background-color: #191531 !important;
+}
+.filter__container--priceRange :global(.vtex-slider__selector-container){
+    background-color: #0e0291 !important;
+    border-radius: 50%;
+}
+.filter__container--priceRange :global(.vtex-slider__values-container){
+    justify-content: center;
+}
 @media (max-width: 600px) {
+    .accordionFilterOpen :global(.vtex-checkbox__container){
+        content: "";
+        background: white;
+        background-size: 100%;
+        font-size: 10px;
+        display: block;
+        width: 12px;
+        height: 12px;
+        margin-top: 0px;
+        top: 3px;
+        left: 0px;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+        transition: all 40ms;
+        margin-right: 5px;
+    }
     .galleryItem--normal {
         height: auto !important;
         max-width: 50% !important;
+    }
+    .showingProducts{
+        display: none;
+    }
+    .filtersWrapperMobile{
+        justify-content: flex-start;
+    }
+    .galleryTitle--layout {
+        margin: 7px 0 0 18px;
+    }
+    .filterPopupArrowIcon{
+        position: absolute;
+        right: 0;
+    }
+    .orderByDropdown {
+        border-bottom: 1px solid;
+        padding: 15px 0;
+    }
+    .filterPopupTitle {
+        font-size: 0;
+    }
+    .orderByButton .filterPopupTitle::before {
+        font-size: 20px;
+        content: "ORDENAR POR: ";
+        color: #0e0291;
+        font-weight: 700;
+    }
+    .filtersWrapperMobile .filterPopupTitle::before{
+        font-size: 20px;
+        content: "FILTRAR POR: ";
+        color: #0e0291;
+        font-weight: 700;
+    }
+    .filtersWrapperMobile{
+        border-bottom: 1px solid;
+        padding: 15px 0;
+    }
+    .filterIcon{
+        display: none;
+    }
+    .caretIcon{
+        display: none;
+    }
+    .filterPopupArrowIcon::before{
+        content: "";
+        background: url(https://impormedical.vtexassets.com/arquivos/IconoFlechaAbajo.png)no-repeat;
+        background-size: 100%;
+        font-size: 10px;
+        display: block;
+        width: 23px;
+        height: 23px;
+        margin-top: 0px;
+        top: -9px;
+        right: 0;
+        transition: all 40ms;
+        position: absolute;
+        margin-right: 5px;
+    }
+    .accordionFilterItemIcon::before{
+        content: "";
+        background: url(https://impormedical.vtexassets.com/arquivos/IconoFlechaAbajo.png)no-repeat;
+        background-size: 100%;
+        font-size: 10px;
+        display: block;
+        width: 15px;
+        height: 15px;
+        margin-top: 0px;
+        top: 0px;
+        right: 0;
+        transition: all 40ms;
+        margin-right: 5px;
+    }
+    .accordionFilterItemTitle{
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .filterBreadcrumbsItemName {
+        font-size: 15px;
+    }
+    .sidebar {
+        width: 85%;
+        background-color: #f6f6f6;
+    }
+    .filterClearButtonWrapper :global(.vtex-button__label){
+        color: #191531;
+    }
+    .filterApplyButtonWrapper :global(.vtex-button__label){
+        color: #191531;
+    }
+    .orderByOptionItem {
+        margin-left: 10px;
+    }
+    .orderByOptionsContainer {
+        padding: 10px;
+        position: relative;
+        margin-top: 0px;
+        box-shadow: 0 0 0 0;
+        background: transparent;
+    }
+    .accordionFilterContent {
+        padding: 0;
+    }
+    .filterAccordionItemBox{
+        min-height: 47px;
+        border-top: 1px solid rgba(58,58,58,0.867);
+        padding: 10px 10px;
+        margin-right: 10px;
+    }
+    .accordionFilterContainer{
+        padding-left: 15px;
     }
 }

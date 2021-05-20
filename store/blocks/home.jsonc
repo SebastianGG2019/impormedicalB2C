@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "slider-layout#text-test",
+      "slider-layout#text-testMobile",
       "slider-layout#bannermarcas",
       "rich-text#title1",
       "shelf#demo1",
@@ -11,7 +12,8 @@
       "shelf#demo3",
       "flex-layout.row#home1",
       "tab-layout#home",
-      "flex-layout.row#home2"
+      "flex-layout.row#home2",
+      "flex-layout.row#home2Mobile"
     ]
   },
   //Slider Principal
@@ -21,6 +23,10 @@
         "desktop": 1,
         "tablet": 1,
         "phone": 1
+      },
+      "autoplay":{
+        "timeout": 3000,
+        "stopOnHover": false
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
@@ -84,7 +90,11 @@
         "itemsPerPage": {
           "desktop": 6,
           "tablet": 4,
-          "phone": 3
+          "phone": 2
+        },
+        "autoplay":{
+          "timeout": 3000,
+          "stopOnHover": false
         },
         "infinite": true,
         "showNavigationArrows": "desktopOnly",
@@ -301,7 +311,17 @@
         "props": {
             "productList": {
                 "titleText": "Nuestras Marcas",
-                "itemsPerPage": 4
+                "itemsPerPage": 4,
+                "maxItems": 10,
+                "minItemsPerPage": 2,
+                "scroll": "BY_PAGE",
+                "arrows": "true",
+                "blockClass": "textosSec",
+                "showPaginationDots": "never"
+            },
+            "autoplay":{
+              "timeout": 3000,
+              "stopOnHover": false
             }
         },
         "blocks": ["product-summary.shelf"]
@@ -401,7 +421,7 @@
           "textAlignment": "left",
           "headline": "PERFECTO PARA DÍA DE TURNO",
           "callToActionMode": "link",
-          "blockClass":"BannerDos"
+          "blockClass":["BannerDos","BannerDosUno"]
         }
       },
       "info-card#bannerDOS2":{
@@ -639,7 +659,109 @@
           "link":{
             "url":"#"
           },
-          "blockClass": "imagecompl"
+          "blockClass": ["imagecompl","bannerLateralDerecho"]
+        }
+      },
+
+  //Elementos en mobile 
+       //Slider Principal
+    "slider-layout#text-testMobile": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "carouselMobile",
+        "showPaginationDots":"false"
+      },
+      "children": ["info-card#banner1Mobile", "info-card#banner2Mobile", "info-card#banner3Mobile", "info-card#banner4Mobile"]
+      },
+      "info-card#banner1Mobile":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannermobile.png",
+          "callToActionText": "Ver más productos",
+          "callToActionUrl": "#",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "link",
+          "blockClass":"Mio"
+        }
+      },
+      "info-card#banner2Mobile":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannermobile.png",
+          "callToActionText": "Ver más productos",
+          "callToActionUrl": "#",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "link",
+          "blockClass":"Mio"
+        }
+      },
+      "info-card#banner3Mobile":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannermobile.png",
+          "callToActionText": "Ver más productos",
+          "callToActionUrl": "#",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "link",
+          "blockClass":"Mio"
+        }
+      },
+      "info-card#banner4Mobile":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannermobile.png",
+          "callToActionText": "Ver más productos",
+          "callToActionUrl": "#",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "link",
+          "blockClass":"Mio"
+        }
+      },
+      //banner mosaico Mobile
+      "flex-layout.row#home2Mobile":{
+        "children": [
+          "flex-layout.col#mosaico1Mobile",
+          "flex-layout.col#mosaico2"
+        ],
+        "props":{
+          "blockClass": "mosaicoMobile"
+        }
+      },
+      "flex-layout.col#mosaico1Mobile":{
+        "children": [
+          "image#mosaicoComMobile1",
+          "image#mosaicoComMobile2"
+        ],
+        "props":{
+          "blockClass": ["imagedob"]
+        }
+      },
+      "image#mosaicoComMobile1":{
+        "props":{
+          "src":"https://impormedical.vtexassets.com/arquivos/bannersec2.png",
+          "link":{
+            "url":"#"
+          },
+          "blockClass": ["imagecompl", "imagencomp1primera"]
+        }
+      },
+      "image#mosaicoComMobile2":{
+        "props":{
+          "src":"https://impormedical.vtexassets.com/arquivos/bannersec3.png",
+          "link":{
+            "url":"#"
+          },
+          "blockClass": ["imagecompl", "imagencomp1segunda"]
         }
       }
 }

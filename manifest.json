@@ -11,6 +11,9 @@
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
+  "peerDependencies": {
+    "vtex.reviews-and-ratings": "2.x"
+  },
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
@@ -53,7 +56,8 @@
     "vtex.store-video": "1.x",
     "vtex.search-graphql": "0.x",
     "vtex.product-specifications": "1.x",
-    "vtex.store-form": "0.x"
+    "vtex.store-form": "0.x",
+    "vtex.disclosure-layout": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

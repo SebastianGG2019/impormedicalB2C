@@ -9,6 +9,9 @@
     font-weight: 700;
     color: black;
 }
+.availableQuantityContainer {
+    color: transparent;
+}
 .quantitySelectorContainer{
     display: block;
     -webkit-box-orient: unset;
@@ -35,6 +38,7 @@
     height: 30px;
     padding-left: 7px;
     margin-right: 10px;
+    margin-left: -7px;
     background: #d6cecedd;
 }
 .quantitySelectorStepper :global(.vtex-numeric-stepper__input){
@@ -58,4 +62,32 @@
 }
 .availableQuantityContainer {
     margin: 0 19px;
+}
+@media (max-width: 600px) {
+    .quantitySelectorStepper {
+        height: auto;
+    }
+    .quantitySelectorStepper :global(.vtex-numeric-stepper-container){
+        height: auto;
+    }
+    .quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button-container){
+        width: 50px;
+        height: 50px;
+    }
+    .quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button-container){
+        width: 50px;
+        height: 50px;
+    }
+    .quantitySelectorStepper :global(.vtex-numeric-stepper__input){
+        max-width: 50px;
+        height: 50px;
+    }
+    .quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button){
+        margin: 7px!important;
+        font-size: 20px;
+    }
+    .quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button){
+        margin: 7px!important;
+        font-size: 20px;
+    }
 }

@@ -10,11 +10,40 @@
   },
   "footer-layout.mobile": { 
     "children": [
-
-      "flex-layout.row#footerD"
+      "flex-layout.row#footerM0",
+      "flex-layout.row#footerM",
+      "flex-layout.row#footerM2",
+      "rich-text#footitle7",
+      "image#BannerPagos",
+      "flex-layout.row#extrafootM"
     ]
   },
-  //Inicio decalarado
+  "flex-layout.row#footerM0":{
+    "children":[
+      "flex-layout.col#footer6"
+    ],
+    "props":{
+      "blockClass":"footercon"
+    }
+  },
+  "flex-layout.row#footerM2":{
+    "children":[
+      "flex-layout.col#footer1"
+    ],
+    "props":{
+      "blockClass":"footercon"
+    }
+  },
+  "flex-layout.row#footerM":{
+    "children":[
+      "flex-layout.col#footer4",
+      "flex-layout.col#footer5"
+    ],
+    "props":{
+      "blockClass":"footercon"
+    }
+  },
+  //Inicio decolarado
   "flex-layout.row#footerD":{
     "children":[
       "flex-layout.col#footer1",
@@ -45,12 +74,12 @@
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
-      "blockClass": "titleF"
+      "blockClass": ["titleF","titleLast"]
     }
   },
   "rich-text#foo3":{
     "props": {
-      "text": "¿Quienes somos?",
+      "text": "[¿Quienes somos?](/faqs)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -59,7 +88,7 @@
   },
   "rich-text#foo4":{
     "props": {
-      "text": "Nuestra Historia",
+      "text": "[Nuestra Historia](/quienes-somos)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -68,7 +97,7 @@
   },
   "rich-text#foo41":{
     "props": {
-      "text": "Nuestra Información",
+      "text": "[Nuestra Información](/quienes-somos)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -208,7 +237,7 @@
   },
   "rich-text#foo13":{
     "props": {
-      "text": "[Profesionales de la salud ](/aviso-privacidad)",
+      "text": "[Profesionales de la salud ](/profesionales%20de%20la%20salud)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -217,7 +246,7 @@
   },
   "rich-text#foo14":{
     "props": {
-      "text": "[Protección e Higiene](/terminos-condiciones)",
+      "text": "[Protección e Higiene](/proteccion%20e%20higiene)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -226,7 +255,7 @@
   },
   "rich-text#foo15":{
     "props": {
-      "text": "[Control y prevención](/Garantias-y-Devoluciones)",
+      "text": "[Control y prevención](/control%20y%20prevencion)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -235,7 +264,7 @@
   },
   "rich-text#foo150":{
     "props": {
-      "text": "[Movilidad](/faqs)",
+      "text": "[Movilidad](/movilidad)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -244,7 +273,7 @@
   },
   "rich-text#foo151":{
     "props": {
-      "text": "[Independencia y cuidado en el hogar](/faqs)",
+      "text": "[Independencia y cuidado en el hogar](/independencia-y-cuidado-en-el-hogar)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -253,7 +282,7 @@
   },
   "rich-text#foo152":{
     "props": {
-      "text": "[Terapia respiratoria](/faqs)",
+      "text": "[Terapia respiratoria](/terapia%20respiratoria)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -262,7 +291,7 @@
   },
   "rich-text#foo153":{
     "props": {
-      "text": "[Confort](/faqs)",
+      "text": "[Confort](/confort)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -291,7 +320,7 @@
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
-      "blockClass": "titleF"
+      "blockClass": ["titleF","titleLast"]
     }
   },
   "rich-text#foo16":{
@@ -305,7 +334,7 @@
   },
   "rich-text#foo17":{
     "props": {
-      "text": "[Politica de devoluciones](/Bium)",
+      "text": "[Politica de devoluciones](/faqs)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -314,7 +343,7 @@
   },
   "rich-text#foo18":{
     "props": {
-      "text": "[Politica de garantias](/Baobao)",
+      "text": "[Politica de garantias](/faqs)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -323,7 +352,7 @@
   },
   "rich-text#foo161":{
     "props": {
-      "text": "[Politica de cancelación](/Disney%20Baby)",
+      "text": "[Politica de cancelación](/faqs)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -332,7 +361,7 @@
   },
   "rich-text#foo171":{
     "props": {
-      "text": "[WhatsApp 123 123 3434](/Hot%20Wheels)",
+      "text": "[WhatsApp 123 123 3434](/faqs)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -341,7 +370,7 @@
   },
   "rich-text#foo181":{
     "props": {
-      "text": "[PBX 01 80000 123 456](/Fiscer%20Price)",
+      "text": "[PBX 01 80000 123 456](/faqs)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -350,21 +379,35 @@
   },
   "rich-text#foo162":{
     "props": {
-      "text": "[e-mail info@impormedical.com](/Kidorable)",
+      "text": "[e-mail info@impormedical.com](mailto:info@impormedical.com)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
-      "blockClass": "textFoo"
+      "blockClass": "textFooM"
     }
   },
   //Columna 6
   "flex-layout.col#footer6":{
     "children":[
       "rich-text#footitle6",
-      "form#newsletter"
+      "flex-layout.row#form",
+      "rich-text#footitle7",
+      "image#BannerPagosD"
     ],
     "props":{
       "blockClass": "footerC"
+    }
+  },
+  "image#BannerPagosD": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/pixlr-bg-result.png",
+      "blockClass":"BannerPagosD"
+    }
+  },
+  "image#BannerPagos": {
+    "props": {
+      "src": "https://impormedical.vteximg.com.br/arquivos/pixlr-bg-result.png",
+      "blockClass":"BannerPagos"
     }
   },
   "rich-text#footitle6":{
@@ -373,24 +416,45 @@
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
-      "blockClass": "titleF"
+      "blockClass": ["titleF","tituloNewsletter"]
     }
   },
-  "form#newsletter": {
+  "rich-text#footitle7":{
     "props": {
-      "entity": "clients",
-      "schema": "person"
-    },
+      "text": "Nuestros metodos de pago",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFooM"
+    }
+  },
+  "flex-layout.row#form": {
     "children": [
-      "form-input.text#firstName"
+      "flex-layout.col#form"
     ]
   },
-  "form-input.text#firstName": {
-    "props": {
-      "pointer": "#/properties/firstName"
-    }
+  "flex-layout.col#form": {
+    "children": [
+      "newsletter"
+    ]
+  },
+  "newsletter":{
+    "props":{
+      "blockClass": "newsletter",
+      "placeholder":"Correo Electronico"
+    } 
   },
   //last part footer
+  "flex-layout.row#extrafootM":{
+    "children":[
+      "rich-text#foo1",
+      "info-card#foo2",
+      "info-card#foo3"
+    ],
+    "props":{
+      "blockClass": "lastF"
+    } 
+  },
   "flex-layout.row#extrafoot":{
     "children":[
       "flex-layout.col#last1",

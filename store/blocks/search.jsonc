@@ -10,6 +10,11 @@
         "maxItemsPerPage": 15
      }
   },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
     "search-result-layout": {
       "blocks": [
         "search-result-layout.desktop",
@@ -26,9 +31,9 @@
     },
    "store.search#category": {
       "blocks": [        
-        "search-result-layout.desktop",
-        "search-result-layout.mobile",
-        "search-not-found-layout"
+        "search-result-layout.desktop"
+        //"search-result-layout.mobile"
+        //"search-not-found-layout"
       ],
       "props": {
           "context": {
@@ -40,9 +45,9 @@
     },
     "store.search#brand": {
       "blocks": [        
-        "search-result-layout.desktop",
-        "search-result-layout.mobile",
-        "search-not-found-layout"
+        "search-result-layout.desktop"
+        //"search-result-layout.mobile"
+        //"search-not-found-layout"
       ],
       "props": {
           "context": {
@@ -54,9 +59,9 @@
     },
     "store.search#department": {
       "blocks": [        
-        "search-result-layout.desktop",
-        "search-result-layout.mobile",
-        "search-not-found-layout"
+        "search-result-layout.desktop"
+        //"search-result-layout.mobile"
+        //"search-not-found-layout"
       ],
       "props": {
           "context": {
@@ -68,9 +73,9 @@
     },
     "store.search#subcategory": {
       "blocks": [        
-        "search-result-layout.desktop",
-        "search-result-layout.mobile",
-        "search-not-found-layout"
+        "search-result-layout.desktop"
+        //"search-result-layout.mobile"
+        //"search-not-found-layout"
       ],
       "props": {
           "context": {
@@ -84,12 +89,25 @@
     "search-result-layout.desktop": {
       "children": [
         "info-card#bannerC",
+        "info-card#bannerMobile",
         "breadcrumb.search",
         "search-title.v2",
         "flex-layout.row#catego"
       ],
       "props": {
         "maxItemsPerPage": 15
+      }
+    },
+    "search-result-layout.mobile": {
+      "children": [
+        "info-card#bannerC",
+        "info-card#bannerMobile",
+        "breadcrumb.search",
+        "search-title.v2",
+        "flex-layout.row#catego"
+      ],
+      "props": {
+        "maxItemsPerPage": 16
       }
     },
     //Banner principal
@@ -101,6 +119,16 @@
         "textPosition": "CENTER",
         "textAlignment": "CENTER",
         "blockClass":"bannerC"
+      }
+    },
+    "info-card#bannerMobile":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://impormedical.vteximg.com.br/arquivos/SillasruedasMovilidad.png",
+        "callToActionUrl": "#",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass":"bannerM"
       }
     },
     //Columnas productos
@@ -186,9 +214,36 @@
       "blocks": ["product-summary.shelf#vitrina2"]
        },
     "search-not-found-layout": {
-        "children": [ "flex-layout.row#searchbread", "flex-layout.row#notfound" ]
+        "children": [ "flex-layout.row#searchbread", "flex-layout.row#notfound", "rich-text#not-found","shelf#not-found"]
     },
-
+    "rich-text#not-found": {
+      "props": {
+        "text": "# TAMBIEN TE PUEDE INTERESAR #",
+        "textAlignment": "CENTER",
+        "font": "t-heading-3",
+        "textPosition": "CENTER",
+        "blockClass": "textosPrinc"
+      }
+    },
+    "shelf#not-found": {
+      "props": {
+          "productList": {
+              "titleText": "Nuestras Marcas",
+              "itemsPerPage": 4,
+              "maxItems": 10,
+              "minItemsPerPage": 2,
+              "scroll": "BY_PAGE",
+              "arrows": "true",
+              "blockClass": "textosSec",
+              "showPaginationDots": "never"
+          },
+          "autoplay":{
+            "timeout": 3000,
+            "stopOnHover": false
+          }
+      },
+      "blocks": ["product-summary.shelf"]
+    },
     "flex-layout.row#searchbread": {
       "children": ["breadcrumb.search"],
       "props": {
@@ -202,5 +257,4 @@
         "fullWidth": true
       }
     }
-
 }

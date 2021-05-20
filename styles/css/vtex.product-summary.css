@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 .currencyContainer{
   color: black;
   font-size: 16px;
   text-align: left;
 }
-
+.price_sellingPrice {
+  font-family: 'Comfortaa';
+}
 .currencyDecimal, .currencyFraction{
   display: none;
 }
@@ -20,7 +23,7 @@
   text-align: left;
 }
 .container {
-  padding: 10px 10px;  
+  padding: 10px 4px;  
 }
 .c-on-action-primary{
   background: #00ff99;
@@ -189,13 +192,13 @@
 .priceContainer {
   padding: 0;
   opacity: 0;
-  height: 30px;
+  height: 40px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   margin: 0 1px;
 }
 .nameContainer{
-  padding: 10px 0 0 10px;
+  padding: 10px 10px 0 10px;
   margin: 0 1px;
   justify-content: flex-start;
   border-radius: 0;
@@ -216,7 +219,7 @@
 .price_sellingPrice--newprice{
   position: absolute;
   left: 0;
-  top: 0;
+  bottom: 4px;
 }
 .imageContainer {
   overflow: hidden;
@@ -239,6 +242,21 @@
   }
   .nameContainer, .priceContainer{
     background-color: white;
+  }
+  .productNameContainer {
+    min-height: 59px;
+    text-align: left;
+  }
+  .container {
+    padding: 5px 5px;
+  }
+  .imageNormal {
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .nameContainer {
+    margin:-10px 0px 0 0;
   }
 }
 

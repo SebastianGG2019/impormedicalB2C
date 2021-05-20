@@ -15,9 +15,11 @@
       border-radius: 0px  !important;
       max-width: 100% !important;
       width: 100% !important;
+      text-align: left;
     }
     .input::placeholder{
       color: black;
+      text-align: left;
     }
     .hideDecorators{
       width: auto;
@@ -25,4 +27,22 @@
   }
   .hideDecorators{
     height: auto;
+  }
+  .input::placeholder{
+    font-weight: 400;
+    color: rgb(209, 209, 209);
+    font-size: 14px;
+  }
+  .input{
+    padding: 0;
+  }
+  @media (max-width: 600px) {
+    .input{
+      padding: 0;
+    }
+    .input::placeholder{
+      font-weight: 400;
+      color: rgb(209, 209, 209);
+      font-size: 14px;
+    }
   }

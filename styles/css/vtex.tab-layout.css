@@ -5,20 +5,26 @@
     color: #191531 !important;
     font-weight: 600;
 }
+.listItemActive :global(.vtex-button__label){
+    font-size: 1.2rem;
+}
 .container--home{
     margin: 40px 0 0 0;
 }
 .listItemActive {
     background: #ffc100 !important;
+    max-height: 41px!important;
+    margin: 0 0 0 5px!important;
 }
 .listItem  {
-    margin: 0 5px;
+    margin: 6px 0 0 5px;
     background: #191531;
     color: #ffc100;
     width: 24%;
     text-align: center;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    max-height: 35px;
 } 
 .listItem:focus {
     border:none;
@@ -31,10 +37,12 @@
     margin: 0 100px 0 100px;
 }
 .container--product .contentItem {
-    padding: 2% 2% 2% 2%;
+    padding: 2% 6% 2% 0%;
+    text-align: justify;
+    line-height: 20px;
 }
 .container--product .listItemActive{
-    background: #f8f7f7 !important;
+    background: white !important;
     padding: 0 10px;
 }
 .container--product .listItem{
@@ -73,7 +81,7 @@
     margin-bottom: 100px;
 }
 .contentItem {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 .contentItem--tabbersVitrina {
     margin-bottom: 0;
@@ -81,4 +89,91 @@
 }
 .container--product .contentContainer  {
     border-radius: 5px;
+}
+.container--productM{
+    display: none;
+}
+@media (max-width: 600px) {
+    .listItem :global(.vtex-button__label){
+        padding: 0;
+        letter-spacing:0;
+        font-weight: 400;
+    }
+    .listItemActive :global(.vtex-button__label){
+        font-size: 15px;
+        color: white !important;
+        font-weight: 400;
+    }
+    .contentItem--tabbersVitrina {
+        height: 379px;
+    }
+    .listItem {
+        margin: 0px 0 0 5px;
+        width: 30%;
+    }
+    .listItemActive {
+        max-height: 41px !important;
+        margin: 0;
+    }
+    .listItem {
+        max-height: 41px ;
+    }
+    .container--product{
+        margin: 0 10px;
+    }
+    .container--product{
+        display: none;
+    }
+    .container--productM{
+        display: block !important;
+        margin: 0 25px 40px 25px;
+    }
+    .container--productM .contentContainer {
+        background-color: white;
+    }
+    .container--productM .listItemActive{
+        background: white !important;
+        width: 50% !important;
+        margin-left: 0 !important;
+        border-top-left-radius: 5px !important;
+        border-top-right-radius: 5px !important;
+        text-align: center !important;
+    } 
+    .container--productM .listItemActive :global(.vtex-button__label){
+        color: #0f0095 !important;
+        font-weight: 700;
+    }
+    .container--productM .listItem :global(.vtex-button__label){
+        color: white ;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .container--productM .listItem{
+        width: 100%;
+        margin-left: 0 !important;
+        background-color: #0f0095;
+        text-align: left;
+        margin: 10px 0;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        padding: 10px;
+        position: relative;
+        max-height: 50px !important;
+    } 
+    .container--productM .listItem::before{
+        content: "";
+        background: url(https://recamierco.vteximg.com.br/arquivos/boton-flecha-abajo.png)no-repeat;
+        background-size: 100%;
+        font-size: 10px;
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+        top: 7px;
+        filter: invert();
+        right: 10px;
+        transition: all 40ms;
+        position: absolute;
+        margin-right: 5px;
+    }
 }

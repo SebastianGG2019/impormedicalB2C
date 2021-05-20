@@ -53,15 +53,33 @@
     display: none !important;
   }
 .minicartCheckoutButton :global(.vtex-button__label)::before {
-    content: "Finalizar compra";
+    content: "FINALIZAR COMPRA";
     font-size: 15px;
 }
 .minicartCheckoutButton :global(.vtex-button__label) {
     font-size: 0;
-    background: black;
-    border-radius: 17px;
+    background-color: #ffc100;
+    color: #0f0095;
+    border-radius: 5px;
     height: 43px;
 }
 .minicartIconContainer{
     padding-right: 0 !important;
+}
+@media (max-width: 600px) {
+    .minicartQuantityBadge {
+        right: 73px !important;
+    }
+    .minicartIconContainer::before {
+        width: 35px;
+        height: 29px;
+        margin-top: 1px;
+        margin-right: 2px;
+    }
+    .openIconContainer :global(.vtex-button__label){
+        padding: 0;
+    }
+    .openIconContainer {
+        margin-right: 8px;
+    }
 }

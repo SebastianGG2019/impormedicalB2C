@@ -4,3 +4,8 @@
 .slide--Cmarca--visible:hover{
     background-color: black;
 }
+@media (max-width: 600px) {
+    .sliderFrame {
+        width: 637% !important;
+    }    
+}

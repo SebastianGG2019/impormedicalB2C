@@ -4,13 +4,20 @@
     "flex-layout.row#product-breadcrumb",
     "flex-layout.row#product-main",
     "tab-layout#product",
+    "tab-layout#productM",
+    "flex-layout.row#reviews-and-ratings",
     "rich-text#product1",
-    "shelf.relatedProducts",
+    "shelf#Product",
     "rich-text#product2",
-    "shelf.relatedProducts#2"
+    "shelf#Product2"
   ]
 },
-
+"breadcrumb": {
+  "props": {
+    "blockClass": "breadCrumbMobileP",
+    "showOnMobile": true
+  }
+},
 "flex-layout.row#product-breadcrumb": {
   "props": {
     "marginTop": 4
@@ -32,13 +39,30 @@
 "flex-layout.col#product-image": {
   "props": {
     "width": "70%",
-    "rowGap": 0
+    "rowGap": 0,
+    "blockClass":"imagenesD"
   },
   "children": ["product-images"]
 },
 "product-images": {
   "props": {
-    "displayThumbnailsArrows": true
+    "displayThumbnailsArrows": true,
+    "zoomMode":"in-place-hover"
+  }
+},
+"flex-layout.col#product-imageM": {
+  "props": {
+    "width": "70%",
+    "rowGap": 0,
+    "blockClass":"imagenesM"
+  },
+  "children": ["product-images#M"]
+},
+"product-images#M": {
+  "props": {
+    "displayThumbnailsArrows": true,
+    "zoomMode":"in-place-hover",
+    "thumbnailsOrientation": "horizontal"
   }
 },
 "flex-layout.col#right-col": {
@@ -50,6 +74,7 @@
     "product-name",
     "product-identifier.product",
     "product-price#product-details",
+    "flex-layout.col#product-imageM",
     "product-description",
     "sku-selector",
     "product-rating-summary",
@@ -118,13 +143,23 @@
       "blockClass": "textosPrinc"
     }
   },
-  "shelf.relatedProducts": {
+  "shelf#Product": {
     "props": {
-        "recommendation": "view",
         "productList": {
             "titleText": "Nuestras Marcas",
-            "itemsPerPage": 4
-        }
+            "itemsPerPage": 4,
+            "maxItems": 10,
+            "minItemsPerPage": 2,
+            "scroll": "BY_PAGE",
+            "arrows": "true",
+            "blockClass": "textosSec",
+            "showPaginationDots": "never"
+        },
+        "autoplay":{
+          "speed": 500,
+          "delay": 3000
+        },
+        "blockClass":"vitrinaProduct"
     },
     "blocks": ["product-summary.shelf"]
   },
@@ -137,13 +172,23 @@
       "blockClass": "textosPrinc"
     }
   },
-  "shelf.relatedProducts#2": {
+  "shelf#Product2": {
     "props": {
-        "recommendation": "view",
         "productList": {
             "titleText": "Nuestras Marcas",
-            "itemsPerPage": 4
-        }
+            "itemsPerPage": 4,
+            "maxItems": 10,
+            "minItemsPerPage": 2,
+            "scroll": "BY_PAGE",
+            "arrows": "true",
+            "blockClass": "textosSec",
+            "showPaginationDots": "never"
+        },
+        "autoplay":{
+          "speed": 500,
+          "delay": 3000
+        },
+        "blockClass":"vitrinaProduct"
     },
     "blocks": ["product-summary.shelf"]
   },
@@ -158,6 +203,18 @@
         "defaultActiveTabId": "product1"
       }
     },
+    "tab-layout#productM": {
+      "children": [
+        "tab-list.item#product1",
+        "tab-content#product",
+        "tab-list.item#product2",
+        "tab-list.item#product3"
+      ],
+        "props": {
+          "blockClass": "productM",
+          "defaultActiveTabId": "product1"
+        }
+      },
     "tab-list#product":{
       "children":[
         "tab-list.item#product1",
@@ -185,12 +242,73 @@
     },
     "tab-content#product":{
       "children":[
-        "tab-content.item#product1"
+        "flex-layout.row#product1"
       ],
       "props": {
         "blocblockClass": "productContent"
       }
     },
+    "flex-layout.row#product1":{
+      "children": [
+        "tab-content.item#product1",
+        "flex-layout.col#product1"
+      ],
+      "props":{
+        "blockClass": "InformacionDos"
+      }
+    },
+    "flex-layout.col#product1":{
+      "children": [
+        "rich-text#titleProduct1",
+        "info-card#espec1",
+        "rich-text#titleProduct2",
+        "info-card#espec2"
+      ],
+      "props":{
+        "blockClass": "InformacionDos"
+      }
+    },
+    "rich-text#titleProduct1": {
+      "props": {
+        "text": "# GARANTÍA #",
+        "textAlignment": "LEFT",
+        "font": "t-heading-2",
+        "textPosition": "LEFT",
+        "blockClass": "tituloProduct"
+      }
+    },
+    "info-card#espec1":{
+      "props":{
+        "id":"texting",
+        "callToActionText": "AQUI",
+        "callToActionUrl": "#",
+        "textPosition": "left",
+        "textAlignment": "left",
+        "subhead": "Descarga el documento",
+        "callToActionMode": "link",
+        "blockClass":"descripcionEspec"
+      }
+    },
+    "rich-text#titleProduct2": {
+      "props": {
+        "text": "# CARACTERÍSTICAS DEL USUARIO #",
+        "textAlignment": "LEFT",
+        "font": "t-heading-2",
+        "textPosition": "LEFT",
+        "blockClass": "tituloProduct"
+      }
+    },
+    "info-card#espec2":{
+      "props":{
+        "id":"texting",
+        "textPosition": "left",
+        "textAlignment": "left",
+        "subhead": "Adulto con dificultad para mover sus brazos",
+        "callToActionMode": "link",
+        "blockClass":"descripcionEspec"
+      }
+    },
+
     "tab-content.item#product1": {
       "children": [
         "product-specification-group#tap1"
@@ -229,6 +347,109 @@
       "props": {
         "message": "{specificationValue}"
       }
+    },
+    //RATING EN PRODUCTO
+    "flex-layout.row#reviews-and-ratings": {
+      "children": ["flex-layout.col#reviews-and-ratings"],
+      "props": {
+        "blockClass": "reviews-and-ratings"
+      }
+    },
+  
+    "flex-layout.col#reviews-and-ratings": {
+      "children": [
+        "disclosure-layout#reviews-and-ratings"
+      ],
+      "props": {
+        "blockClass": "reviews-and-ratings",
+        "width": "74%"
+      }
+    },
+  
+    "disclosure-layout#reviews-and-ratings": {
+      "children": [
+        "disclosure-trigger#reviews-and-ratings",
+        "disclosure-content#reviews-and-ratings"
+      ],
+      "props": {
+        "initialVisibility": "visible"
+      }
+    },
+  
+    "disclosure-trigger#reviews-and-ratings": {
+      "children": ["flex-layout.row#disclosure-trigger-reviews"],
+      "props": {
+        "as": "div"
+      }
+    },
+  
+    "flex-layout.row#disclosure-trigger-reviews": {
+      "children": [
+        "rich-text#reviews-disclosure-trigger-heading",
+        "flex-layout.col#spacer",
+        "disclosure-state-indicator"
+      ],
+      "props": {
+        "blockClass": ["items-end", "disclosure-trigger-reviews"],
+        "colGap": 8,
+        "colSizing": "auto",
+        "preserveLayoutOnMobile": true,
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true
+      }
+    },
+  
+    "disclosure-content#reviews-and-ratings": {
+      "children": ["flex-layout.row#reviews"],
+      "props": {
+        "blockClass": "reviews-and-ratings"
+      }
+    },
+  
+    "flex-layout.row#reviews": {
+      "children": ["flex-layout.col#reviews"]
+    },
+  
+    "flex-layout.col#reviews": {
+      "children": ["flex-layout.row#reviews-content"]
+    },
+  
+    "flex-layout.row#reviews-content": {
+      "children": [
+        "flex-layout.col#ratings-only",
+        "flex-layout.col#reviews-only",
+        "flex-layout.col#spacer"
+      ],
+      "props": {
+        "colGap": 0,
+        "colSizing": "auto",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "blockClass": "rowRatings"
+      }
+    },
+    "rich-text#reviews-disclosure-trigger-heading": {
+      "props": {
+        "blockClass": ["reviews", "disclosure-trigger-heading"],
+        "text": "<span>Opiniones </span>",
+        "font": "t-heading-5"
+      }
+    },
+  
+    // This is a nasty workaround because `product-reviews.vtex` doesn't have composability
+    // and it doesn't respect `blockClass` either.
+  
+    "flex-layout.col#ratings-only": {
+      "children": ["product-reviews"],
+      "props": {
+        "blockClass": ["ratings-only"]
+      }
+    },
+  
+    "flex-layout.col#reviews-only": {
+      "children": ["product-reviews"],
+      "props": {
+        "blockClass": ["reviews-only"]
+      }
     }
-
 }
