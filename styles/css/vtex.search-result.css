@@ -3,13 +3,12 @@
     margin: 0;
 }
 .galleryTitle--layout{
-    margin: 7px 100px 0 100px;
+    margin: 7px 100px 10px 100px;
     color: #333;
     font-size: 36px;
     font-weight: 700;
     line-height: 20px;
     display: block;
-    border-bottom: 1px solid #E5E5E5;
     padding-bottom: 21px;
     padding-top: 9px;
 }
@@ -28,6 +27,9 @@
     font-size: 15px;
     margin-right: 10px;
     line-height: 30px;
+}
+.galleryItem--normal :global(.vtex-product-summary-2-x-imageNormal){
+    max-height: 16.56rem!important;
 }
 .showingProducts {
     border: 0;
@@ -71,7 +73,7 @@
     font-size: 13px;
     color: rgba(58,58,58,0.867);
     font-weight: 500;
-    border: 1px solid rgba(58,58,58,0.867);
+    border: 1px solid #eee;
     padding: 3px;
     text-transform: uppercase;
 }
@@ -188,7 +190,7 @@
     font-weight: bold;
     color:#23169d;
     font-size: 13px;
-    border: 1px solid rgba(58,58,58,0.867);
+    border: 1px solid #eee;
     padding: 3px 10px;
     z-index: 9;
 }
@@ -201,6 +203,85 @@
     top: 5px;
     z-index: 9999;
     opacity: 0;
+}
+.filter__container--accesorios {
+    display: none;
+}
+.filter__container--altura-del-apoyabrazos {
+    display: none;
+}
+.filter__container--altura-del-reposapies-al-piso {
+    display: none;
+}
+.filter__container--altura-del-respaldo {
+    display: none;
+}
+.filter__container--altura-hasta-el-asiento {
+    display: none;
+}
+.filter__container--ancho {
+    display: none;
+}
+.filter__container--ancho-del-asiento {
+    display: none;
+}
+.filter__container--basculacion {
+    display: none;
+}
+.filter__container--calibre-del-tubo {
+    display: none;
+}
+.filter__container--capacidad-de-peso {
+    display: none;
+}
+.filter__container--caracteristicas-especiales {
+    display: none;
+}
+.filter__container--estilo-del-apoyabrazos {
+    display: none;
+}
+.filter__container--estilo-del-reposapies {
+    display: none;
+}
+.filter__container--ficha-tecnica {
+    display: none;
+}
+.filter__container--material-del-apoyabrazos {
+    display: none;
+}
+.filter__container--garantia {
+    display: none;
+}
+.filter__container--material-del-asiento {
+    display: none;
+}
+.filter__container--material-del-respaldo {
+    display: none;
+}
+.filter__container--material-rueda-delantera {
+    display: none;
+}
+.filter__container--plataforma-del-reposapies {
+    display: none;
+}
+.filter__container--profundidad-del-asiento {
+    display: none;
+}
+.filter__container--registro-sanitario {
+    display: none;
+}
+.filter__container--repuestos {
+    display: none;
+}
+.filter__container--tamano-llantas-traseras {
+    display: none;
+}
+.filter__container--tipo-de-apoyo {display: none;}
+.filter__container--tamano-rueda-delantera {
+    display: none;
+}
+.filter__container--tipo-de-estructura {
+    display: none;
 }
 .filterItem :global(.vtex-checkbox__label){
     font-size: 12px;
@@ -242,23 +323,16 @@
 .filter__container--priceRange :global(.vtex-slider__values-container){
     justify-content: center;
 }
+.filter__container--registro-sanitario-2{
+    display: none;
+}
+.filter__container--video-2, .filter__container--video-1{
+    display: none;
+}
+.filter__container--category-1{
+    display: none;
+}
 @media (max-width: 600px) {
-    .accordionFilterOpen :global(.vtex-checkbox__container){
-        content: "";
-        background: white;
-        background-size: 100%;
-        font-size: 10px;
-        display: block;
-        width: 12px;
-        height: 12px;
-        margin-top: 0px;
-        top: 3px;
-        left: 0px;
-        border: 1px solid #ddd;
-        border-radius: 50%;
-        transition: all 40ms;
-        margin-right: 5px;
-    }
     .galleryItem--normal {
         height: auto !important;
         max-width: 50% !important;
@@ -270,7 +344,18 @@
         justify-content: flex-start;
     }
     .galleryTitle--layout {
-        margin: 7px 0 0 18px;
+        margin:7px 23px 0 22px;
+        color: #333;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: unset;
+        display: block;
+        border-bottom: 1px solid #E5E5E5;
+        padding-bottom: 21px;
+        padding-top: 9px;
+    }
+    .orderByText {
+        display: none;
     }
     .filterPopupArrowIcon{
         position: absolute;
@@ -373,4 +458,19 @@
     .accordionFilterContainer{
         padding-left: 15px;
     }
+    /*.filterBreadcrumbsText::before {
+        content: "";
+        background: url(https://impormedical.vtexassets.com/arquivos/59173.png)no-repeat;
+        background-size: 79%;
+        font-size: 10px;
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+        transition: all 40ms;
+        margin-right: 5px;
+        position: absolute;
+        top: 48px;
+        left: 16px;
+    }*/
 }

@@ -32,12 +32,12 @@
 .listItem :global(.vtex-button__label){
     color: #ffc100;
     letter-spacing: 1.5px;
+    width: 50vh;
 }
 .container--product{
     margin: 0 100px 0 100px;
 }
 .container--product .contentItem {
-    padding: 2% 6% 2% 0%;
     text-align: justify;
     line-height: 20px;
 }
@@ -55,6 +55,7 @@
 .container--product .listItem :global(.vtex-button__label){
     color: white;
     padding: 10px 15px !important;
+    width: 40vh;
 }
 .container--product .listItemActive :global(.vtex-button__label){
     color: #0f0095 !important;
@@ -98,6 +99,7 @@
         padding: 0;
         letter-spacing:0;
         font-weight: 400;
+        width: auto;
     }
     .listItemActive :global(.vtex-button__label){
         font-size: 15px;
@@ -144,9 +146,12 @@
         font-weight: 700;
     }
     .container--productM .listItem :global(.vtex-button__label){
-        color: white ;
+        color: white;
         font-weight: 700;
         font-size: 16px;
+        display: block;
+        width: 38vh;
+        text-align: left;
     }
     .container--productM .listItem{
         width: 100%;

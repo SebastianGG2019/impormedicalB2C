@@ -63,6 +63,15 @@
     border-radius: 5px;
     height: 43px;
 }
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph){
+    font-size: 0;
+}
+.minicartEmptyStateContainer :global(.vtex-rich-text-0-x-paragraph)::before{
+    content: "su carrito está vacío";
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
 .minicartIconContainer{
     padding-right: 0 !important;
 }

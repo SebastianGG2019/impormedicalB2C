@@ -69,7 +69,7 @@
     width:  7.25% !important;
   }
   .relatedProducts .shelfContentContainer {
-    margin: 0 10px !important;
+    margin: 0 !important;
   }
   .slide {
     width: 12.5%!important;
@@ -80,4 +80,7 @@
   .container--vitrinaProduct .shelfContentContainer--vitrinaProduct{
     padding: 0px 0 0 27px;
   }
+  .sliderContainer--vitrinasProducts :global(.vtex-slider-0-x-sliderFrame) {
+    width: 538%!important;
+}  
 }

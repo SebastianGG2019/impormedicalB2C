@@ -1,5 +1,5 @@
 {
-  "vendor": "impormedical",
+  "vendor": "siempresalud",
   "name": "theme",
   "version": "0.0.1",
   "builders": {
@@ -57,7 +57,8 @@
     "vtex.search-graphql": "0.x",
     "vtex.product-specifications": "1.x",
     "vtex.store-form": "0.x",
-    "vtex.disclosure-layout": "1.x"
+    "vtex.disclosure-layout": "1.x",
+    "vtex.store-newsletter": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

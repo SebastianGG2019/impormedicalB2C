@@ -395,7 +395,7 @@
       "image#BannerPagosD"
     ],
     "props":{
-      "blockClass": "footerC"
+      "blockClass": ["footerC","ultimaIlera"]
     }
   },
   "image#BannerPagosD": {
@@ -435,14 +435,50 @@
   },
   "flex-layout.col#form": {
     "children": [
-      "newsletter"
+      "newsletter-form"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false,
+      "blockClass": ["inputsNewsletter"]
+    }
+  },
+  "newsletter-form": {
+    "children": [
+      "flex-layout.row#inputs",
+      "newsletter-checkbox-confirmation"
     ]
   },
-  "newsletter":{
+  "flex-layout.row#inputs": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false,
+      "blockClass": ["inputsNewsletter"]
+    }
+
+  },
+  "newsletter-input-email":{
     "props":{
-      "blockClass": "newsletter",
-      "placeholder":"Correo Electronico"
-    } 
+      "placeholderText":"Correo Electrónico"
+    }
+  },
+  "newsletter-submit":{
+    "props":{
+      "submitButtonLabel":"ENVIAR"
+    }
+  },
+  "newsletter-checkbox-confirmation":{
+    "props":{
+      "checkboxLabel":"Aceptación de términos y condiciones de manejo de datos"
+    }
   },
   //last part footer
   "flex-layout.row#extrafootM":{

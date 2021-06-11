@@ -6,11 +6,11 @@
       "slider-layout#bannermarcas",
       "rich-text#title1",
       "shelf#demo1",
+      "flex-layout.row#home1",
       "rich-text#title2",
       "shelf#demo2",
       "rich-text#title3",
       "shelf#demo3",
-      "flex-layout.row#home1",
       "tab-layout#home",
       "flex-layout.row#home2",
       "flex-layout.row#home2Mobile"
@@ -26,7 +26,7 @@
       },
       "autoplay":{
         "timeout": 3000,
-        "stopOnHover": false
+        "stopOnHover": true
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
@@ -93,8 +93,8 @@
           "phone": 2
         },
         "autoplay":{
-          "timeout": 3000,
-          "stopOnHover": false
+          "timeout": 5000,
+          "stopOnHover": true
         },
         "infinite": true,
         "showNavigationArrows": "desktopOnly",
@@ -103,6 +103,10 @@
       },
       "children": [
         "info-card#marca1", "info-card#marca2","info-card#marca3", 
+        "info-card#marca4","info-card#marca5", "info-card#marca6",
+        "info-card#marca7", "info-card#marca8","info-card#marca9",
+        "info-card#marca10", "info-card#marca11","info-card#marca12",
+        "info-card#marca13", "info-card#marca14","info-card#marca1", "info-card#marca2","info-card#marca3", 
         "info-card#marca4","info-card#marca5", "info-card#marca6",
         "info-card#marca7", "info-card#marca8","info-card#marca9",
         "info-card#marca10", "info-card#marca11","info-card#marca12",
@@ -277,7 +281,6 @@
           "blockClass":"marcas-icon14"
         }
       },
-
     //Titulo1
     "rich-text#title1": {
       "props": {
@@ -321,7 +324,7 @@
             },
             "autoplay":{
               "timeout": 3000,
-              "stopOnHover": false
+              "stopOnHover": true
             }
         },
         "blocks": ["product-summary.shelf"]
@@ -329,6 +332,7 @@
       "shelf#demo2": {
         "blocks": ["product-summary.shelf"],
         "props": {
+          "collection": 142,
           "productList": {
            "maxItems": 10,
            "itemsPerPage": 4,
@@ -343,7 +347,7 @@
       "shelf#demo3": {
         "blocks": ["product-summary.shelf"],
         "props": {
-          "collection": 137,
+          "collection": 143,
           "productList": {
            "maxItems": 10,
            "itemsPerPage": 4,
@@ -358,7 +362,7 @@
       "shelf#demo4": {
         "blocks": ["product-summary.shelf#vitrina2"],
         "props": {
-          "collection": 137,
+          "collection": 139,
           "productList": {
            "maxItems": 10,
            "itemsPerPage": 4,
@@ -373,7 +377,7 @@
       "shelf#demo5": {
         "blocks": ["product-summary.shelf#vitrina2"],
         "props": {
-          "collection": 137,
+          "collection": 140,
           "productList": {
            "maxItems": 10,
            "itemsPerPage": 4,
@@ -388,7 +392,7 @@
       "shelf#demo6": {
         "blocks": ["product-summary.shelf#vitrina2"],
         "props": {
-          "collection": 137,
+          "collection": 141,
           "productList": {
            "maxItems": 10,
            "itemsPerPage": 4,
@@ -615,7 +619,7 @@
             "url":"#"
           },
           "title": "PARA EL CUIDADO DEL CORAZÓN",
-          "blockClass": "imagecomplG"
+          "blockClass": ["imagecomplG","imagenMosaico1"]
         }
       },
       "image#mosaicoCom2":{
@@ -624,7 +628,7 @@
           "link":{
             "url":"#"
           },
-          "blockClass": "imagecomplP"
+          "blockClass": ["imagecomplP","imagenMosaico2"]
         }
       },
       "image#mosaicoCom3":{
@@ -633,7 +637,7 @@
           "link":{
             "url":"#"
           },
-          "blockClass": "imagecomplP"
+          "blockClass": ["imagecomplP", "imagenMosaico3"]
         }
       },
       "image#mosaicoCom4":{
@@ -642,7 +646,7 @@
           "link":{
             "url":"#"
           },
-          "blockClass": "imagecomplG"
+          "blockClass": ["imagecomplG","imagenMosaico4"]
         }
       },
       "flex-layout.col#mosaico2":{

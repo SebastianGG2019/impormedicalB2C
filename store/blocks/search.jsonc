@@ -5,9 +5,9 @@
     "props": {
         "context": {
             "skusFilter": "ALL",
-            "simulationBehavior": "skip"
+            "simulationBehavior": "default"
         },
-        "maxItemsPerPage": 15
+        "maxItemsPerPage": 12
      }
   },
   "breadcrumb.search": {
@@ -22,68 +22,12 @@
         "search-not-found-layout"
       ],
       "props": {
-        "context": {
-            "skusFilter": "ALL",
-            "simulationBehavior": "skip"
+        "querySchema": {
+          "skusFilter": "ALL",
+          "simulationBehavior": "default"
         },
-        "maxItemsPerPage": 15
+        "maxItemsPerPage": 12
      }
-    },
-   "store.search#category": {
-      "blocks": [        
-        "search-result-layout.desktop"
-        //"search-result-layout.mobile"
-        //"search-not-found-layout"
-      ],
-      "props": {
-          "context": {
-              "skusFilter": "ALL",
-              "simulationBehavior": "skip"
-          },
-          "maxItemsPerPage": 15
-       }
-    },
-    "store.search#brand": {
-      "blocks": [        
-        "search-result-layout.desktop"
-        //"search-result-layout.mobile"
-        //"search-not-found-layout"
-      ],
-      "props": {
-          "context": {
-              "skusFilter": "ALL",
-              "simulationBehavior": "skip"
-          },
-          "maxItemsPerPage": 15
-       }
-    },
-    "store.search#department": {
-      "blocks": [        
-        "search-result-layout.desktop"
-        //"search-result-layout.mobile"
-        //"search-not-found-layout"
-      ],
-      "props": {
-          "context": {
-              "skusFilter": "ALL",
-              "simulationBehavior": "skip"
-          },
-          "maxItemsPerPage": 15
-       }
-    },
-    "store.search#subcategory": {
-      "blocks": [        
-        "search-result-layout.desktop"
-        //"search-result-layout.mobile"
-        //"search-not-found-layout"
-      ],
-      "props": {
-          "context": {
-              "skusFilter": "ALL",
-              "simulationBehavior": "skip"
-          },
-          "maxItemsPerPage": 15
-       }
     },
     //Construcción Desktop category
     "search-result-layout.desktop": {
@@ -95,7 +39,7 @@
         "flex-layout.row#catego"
       ],
       "props": {
-        "maxItemsPerPage": 15
+        "maxItemsPerPage": 12
       }
     },
     "search-result-layout.mobile": {

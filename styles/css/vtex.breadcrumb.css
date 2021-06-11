@@ -31,4 +31,26 @@
     .container--breadCrumbMobileP {
         margin: 10px 27px 5px 27px;
     }
+    .homeLink {
+        display: block !important;
+        padding: 0;
+        margin-top: -5px;
+    }
+    .term--breadCrumbMobileP {
+        display: none;
+    }
+    .link--breadCrumbMobileP--1{
+        font-size: 0;
+    }
+    .link--breadCrumbMobileP--1::before{
+        content: "DEPARTAMENTO";
+        font-size: 10px;
+    }
+    .link--breadCrumbMobileP--2{
+        font-size: 0;
+    }
+    .link--breadCrumbMobileP--2::before{
+        content: "CATEGORIA";
+        font-size: 10px;
+    }
 }

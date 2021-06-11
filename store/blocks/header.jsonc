@@ -144,7 +144,7 @@
       "menu-item#Category2",
       "menu-item#Category3",
       "menu-item#Category4",
-      /*"menu-item#Category5",*/
+      "menu-item#Category5",
       "rich-text#titles-botonMenu1",
       "rich-text#titles-botonMenu2"
     ],
@@ -237,7 +237,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/profesionales%20de%20la%20salud?_q=profesionales%20de%20la%20salud&map=ft",
+        "href": "/Profesionales-de-la-salud",
         "noFollow": false,
         "tagTitle": "Categoría",
         "text": "PROFESIONALES DE LA SALUD"
@@ -317,7 +317,7 @@
   //columna 1
   "rich-text#titles-submenu37":{
     "props": {
-      "text":"[AYUDAS PARA LA MARCHA](/faqs)",
+      "text":"[AYUDAS PARA LA MARCHA](/movilidad/ayudas-para-la-marcha?initialMap=c&initialQuery=movilidad&map=category-1,category-2)",
       "blockClass": "tituloSubemnu"
     }
   },
@@ -335,7 +335,7 @@
   },
   "rich-text#titles-submenu40":{
     "props": {
-      "text":"[Bastones](/faqs)",
+      "text":"[Bastones](/Bastones)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -407,7 +407,7 @@
     "children": [
       "flex-layout.col#submenu1",
       "flex-layout.col#submenu2",
-      "flex-layout.col#submenu3"
+      "flex-layout.col#submenu4"
     ]
   },
   "flex-layout.row#submenu22":{
@@ -417,7 +417,7 @@
       "blockClass": "submenu1"
     },
     "children": [
-      "flex-layout.col#submenu4",
+      "flex-layout.col#submenu2",
       "flex-layout.col#submenu5"
     ]
   },
@@ -426,14 +426,17 @@
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "blockClass": "submenu1"
+      "blockClass": ["submenu1","submenu0"]
     },
     "children": [
       "rich-text#titles-submenu1",
       "rich-text#titles-submenu2",
       "rich-text#titles-submenu3",
       "rich-text#titles-submenu4",
-      "rich-text#titles-submenu5"
+      "rich-text#titles-submenu5",
+      "rich-text#titles-submenuAdi1",
+      "rich-text#titles-submenuAdi2",
+      "rich-text#titles-submenuAdi3"
     ]
   },
     //columna dos submenu
@@ -441,7 +444,7 @@
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "blockClass": "submenu1"
+      "blockClass": ["submenu1","submenu0"]
     },
     "children": [
       "rich-text#titles-submenu6",
@@ -455,72 +458,93 @@
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "blockClass": "submenu1"
+      "blockClass":["submenu1","submenu0"]
     },
     "children": [
       "rich-text#titles-submenu11",
       "rich-text#titles-submenu12",
       "rich-text#titles-submenu13",
       "rich-text#titles-submenu14",
-      "rich-text#titles-submenu15"
+      "rich-text#titles-submenu15",
+      "rich-text#titles-submenu16"
     ]
   },
   "flex-layout.col#submenu4":{
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "blockClass": "submenu1"
+      "blockClass": ["submenu1","submenu0"]
     },
     "children": [
-      "rich-text#titles-submenu16",
       "rich-text#titles-submenu17",
       "rich-text#titles-submenu18",
       "rich-text#titles-submenu19",
-      "rich-text#titles-submenu20"
+      "rich-text#titles-submenu20",
+      "rich-text#titles-submenuAdi4",
+      "rich-text#titles-submenuAdi5",
+      "rich-text#titles-submenuAdi6",
+      "rich-text#titles-submenuAdi7"
     ]
   },
   "flex-layout.col#submenu5":{
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "blockClass": "submenu1"
+      "blockClass": ["submenu1","submenu0"]
     },
     "children": [
       "rich-text#titles-submenu21",
       "rich-text#titles-submenu22",
       "rich-text#titles-submenu23",
-      "rich-text#titles-submenu24",
-      "rich-text#titles-submenu25"
+      "rich-text#titles-submenu24"
     ]
   },
   //sub items 
   //columna 1
   "rich-text#titles-submenu1":{
     "props": {
-      "text":"[LESIONES MUSCULARES Y ÓSEAS](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[LESIONES MUSCULARES Y ÓSEAS](/lesiones%20musculares%20y%20oseas?_q=lesiones%20musculares%20y%20oseas&map=ft)",
       "blockClass": "tituloSubemnu"
     }
   },
   "rich-text#titles-submenu2":{
     "props": {
-      "text":"[Compresas](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Compresas](/compresas)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu3":{
     "props": {
-      "text":"[Tens](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Tens](/tens)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu4":{
     "props": {
-      "text":"[Cintas kinesiólogicas](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Cintas kinesiólogicas](/cintas%20kinesiologicas?_q=Cintas%20kinesiologicas&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },"rich-text#titles-submenu5":{
     "props": {
-      "text":"[Fajas](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Fajas](/fajas)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuAdi1":{
+    "props": {
+      "text":"[Cuellos](/cuellos)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuAdi2":{
+    "props": {
+      "text":"[Rodilleras](/Rodilleras)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuAdi3":{
+    "props": {
+      "text":"[Cabestrillos](/Cabestrillos)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -528,68 +552,68 @@
   //COLUMNA DOS
   "rich-text#titles-submenu6":{
     "props": {
-      "text":"[RESPIRATORIA](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[RESPIRATORIA](/aspirador%20compresor%20reguladores%20cilindros?_q=aspirador%20compresor%20reguladores%20cilindros&map=ft)",
       "blockClass": "tituoSubmenu"
     }
   },
   "rich-text#titles-submenu7":{
     "props": {
-      "text":"[aspirador de secreciones](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[aspirador de secreciones](/aspirador%20de%20secreciones?_q=aspirador%20de%20secreciones&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu8":{
     "props": {
-      "text":"[Compresor nebulizador](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Compresor nebulizador](/compresor%20nebulizador?_q=compresor%20nebulizador&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu9":{
     "props": {
-      "text":"[Reguladores de oxigeno](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Reguladores de oxigeno](/reguladores%20de%20oxigeno?_q=reguladores%20de%20oxigeno&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu10":{
     "props": {
-      "text":"[cilindros de oxigeno](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[cilindros de oxigeno](/cilindros%20de%20oxigeno?_q=cilindros%20de%20oxigeno&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   //columna tres
   "rich-text#titles-submenu11":{
     "props": {
-      "text":"[CUADERNOS, LAPICEROS Y OTROS ACCESORIOS](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[CUADERNOS, LAPICEROS Y OTROS ACCESORIOS](/cuadernos%20lapiceros%20accesorios?_q=cuadernos%20lapiceros%20accesorios&map=ft)",
       "blockClass": "tituoSubmenu"
     }
   },
   "rich-text#titles-submenu12":{
     "props": {
-      "text":"[Lapiceros](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Lapiceros](/Lapiceros)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu13":{
     "props": {
-      "text":"[Cuadernos](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Cuadernos](/Cuadernos)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu14":{
     "props": {
-      "text":"[Pines](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Pines](/Pines)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu15":{
     "props": {
-      "text":"[Cintas metricas](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Cintas metricas](/cintas%20metricas?_q=Cintas%20metricas&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu16":{
     "props": {
-      "text":"[RCP](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[RCP](/RCP)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -602,50 +626,68 @@
   },
   "rich-text#titles-submenu18":{
     "props": {
-      "text":"[Fonendoscopios](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Fonendoscopios](/Fonendoscopios)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu19":{
     "props": {
-      "text":"[Kits](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Kits](/Kits)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu20":{
     "props": {
-      "text":"[Tensiometros](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Tensiometros](/Tensiometros)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuAdi4":{
+    "props": {
+      "text":"[Otoscopios](/otoscopios)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuAdi5":{
+    "props": {
+      "text":"[Martillos](/Martillos)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuAdi6":{
+    "props": {
+      "text":"[Kits de órganos](/kits%20de%20organos?_q=Kits%20de%20organos&map=ft)",
+      "blockClass": "contenidoSubemnu"
+    }
+  },
+  "rich-text#titles-submenuAdi7":{
+    "props": {
+      "text":"[Linternas](/Linternas)",
       "blockClass": "contenidoSubemnu"
     }
   },
   //columna cinco
   "rich-text#titles-submenu21":{
     "props": {
-      "text":"[TORNIQUETES, TIJERAS E INSTRUMENTOS PARA PEQUEÑAS CIRUGIAS](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[INSTRUMENTOS PARA PEQUEÑAS CIRUGÍAS](/faqs)",
       "blockClass": "tituoSubmenu"
     }
   },
   "rich-text#titles-submenu22":{
     "props": {
-      "text":"[Tijeras](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Tijeras](/Tijeras)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu23":{
     "props": {
-      "text":"[Torniquetes](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Torniquetes](/Torniquetes)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu24":{
     "props": {
-      "text":"[Sistemas de dirección](https://impormedicalf--impormedical.myvtex.com/faqs)",
-      "blockClass": "contenidoSubemnu"
-    }
-  },
-  "rich-text#titles-submenu25":{
-    "props": {
-      "text":"[Sistemas de dirección](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[Sistemas de dirección](//sistemas%20de%20direccion?_q=Sistemas%20de%20direccion&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -750,25 +792,25 @@
   },
   "rich-text#titles-submenu27":{
     "props": {
-      "text":"[Silla para ducha](/silla-para-ducha)",
+      "text":"[Silla para ducha](/silla%20para%20ducha?_q=silla%20para%20ducha&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu28":{
     "props": {
-      "text":"[Comodos Sanitarios](/comodos-sanitarios)",
+      "text":"[Comodos Sanitarios](/comodos%20sanitarios?_q=comodos%20sanitarios&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu29":{
     "props": {
-      "text":"[Eleva Sanitarios](/eleva-sanitarios)",
+      "text":"[Eleva Sanitarios](/eleva%20sanitarios?_q=eleva%20sanitarios&map=fts)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenuIndeoendencia30":{
     "props": {
-      "text":"[Barras de seguridas](/barras-de-seguridad)",
+      "text":"[Barras de seguridas](/barras%20de%20seguridad?_q=barras%20de%20seguridad&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -782,7 +824,7 @@
   },
   "rich-text#titles-submenu31":{
     "props": {
-      "text":"[Cómodos Sanitarios](/comodos-sanitarios)",
+      "text":"[Cómodos Sanitarios](/comodos%20sanitarios?_q=comodos%20sanitarios&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -800,7 +842,7 @@
   },
   "rich-text#titles-submenu34":{
     "props": {
-      "text":"[Superficies especiales para el manejo de la presión](/#)",
+      "text":"[Superficies especiales para el manejo de la presión](/superficies%20especiales%20para%20el%20manejo%20de%20la%20presion?_q=superficies%20especiales%20para%20el%20manejo%20de%20la%20presion&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -813,7 +855,7 @@
   //columna tres
   "rich-text#titles-submenuIndependencia1":{
     "props": {
-      "text":"[MONITOREO ARTERIAL, DE TEMPERATURA Y PESO](/monitoreo-arterial-de-temperatura-y-peso)",
+      "text":"[MONITOREO ARTERIAL, DE TEMPERATURA Y PESO](/monitoreo%20arterial?_q=Monitoreo%20arterial&map=ft)",
       "blockClass": "tituoSubmenu"
     }
   },
@@ -831,7 +873,7 @@
   },
   "rich-text#titles-submenuIndependencia4":{
     "props": {
-      "text":"[Balanza digital](/balanza-digital)",
+      "text":"[Balanza digital](/balanza%20digital?_q=Balanza%20digital&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -916,7 +958,7 @@
   //columna 1
   "rich-text#titles-submenuTerapia1":{
     "props": {
-      "text":"[LESIONES MUSCULARES Y ÓSEOS](/lesiones-musculares-y-oseas)",
+      "text":"[LESIONES MUSCULARES Y ÓSEOS](/lesiones%20musculares%20y%20oseas?_q=Lesiones%20Musculares%20y%20oseas&map=ft)",
       "blockClass": "tituloSubemnu"
     }
   },
@@ -928,7 +970,7 @@
   },
   "rich-text#titles-submenuTerapia3":{
     "props": {
-      "text":"[Cintas kinesiológicas](/cintas-kinesiologicas)",
+      "text":"[Cintas kinesiológicas](/cintas%20kinesiologicas?_q=cintas%20kinesiologicas&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -1224,7 +1266,7 @@
     "children": ["flex-layout.row#menu-header"],
     "props": {
       "blockClass": "menuDrawer",
-      "maxWidth": 384
+      "width": "50%"
     }
   },
   "flex-layout.row#menu-header": {
@@ -1250,7 +1292,7 @@
       "menu-item#independencia",
       "menu-item#terapia",
       "menu-item#tapabocas",
-      /*"menu-item#profesionales",*/
+      "menu-item#profesionales",
       "rich-text#titles-botonMenu1",
       "rich-text#titles-botonMenu2"
     ]
@@ -1348,7 +1390,7 @@
       "blockClass": "department"
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#more5"
     ]
   },
   //<Sub menus Mobile Movilidad
@@ -1363,12 +1405,18 @@
   "flex-layout.row#menu-more": {
     "children": [
       "flex-layout.col#menu-more-1"
-    ]
+    ],
+    "props": {
+      "blockclass": "categoryCont"
+    }
   },
   "flex-layout.col#menu-more-1": {
     "children": [
       "vtex.menu@2.x:menu#more"
-    ]
+    ],
+    "props": {
+      "blockclass": "categoryCont"
+    }
   },
   "vtex.menu@2.x:menu#more": {
     "props": {
@@ -1405,7 +1453,8 @@
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Ayudas para la marcha"
-      }
+      },
+      "blockClass": "category"
     }
   },
   "menu-item#subItemMuletas": {
@@ -1496,7 +1545,8 @@
         "noFollow": true,
         "tagTitle": "FAQ",
         "text": "Silla de ruedas"
-      }
+      },
+      "blockClass": "category"
     }
   },
   "menu-item#subItem1item1": {
@@ -1632,7 +1682,8 @@
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Seguridad en el Baño"
-      }
+      },
+      "blockClass": "category"
     }
   },
   "menu-item#subItemIndependcia1": {
@@ -1659,7 +1710,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/silla-para-la-ducha",
+        "href": "/silla%20para%20la%20ducha?_q=silla%20para%20la%20ducha&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Silla para la ducha"
@@ -1675,7 +1726,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/comodos-sanitarios",
+        "href": "/comodos%20sanitarios?_q=comodos%20sanitarios&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Cómodos sanitarios"
@@ -1691,7 +1742,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/eleva-sanitarios",
+        "href": "/eleva%20sanitarios?_q=eleva%20sanitarios&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Eleva sanitarios"
@@ -1707,7 +1758,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/barras-de-seguridad",
+        "href": "/barras%20de%20seguridad?_q=barras%20de%20seguridad&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Barras de seguridad"
@@ -1739,7 +1790,8 @@
         "noFollow": true,
         "tagTitle": "FAQ",
         "text": "Comodidad y prevención en la habitación"
-      }
+      },
+      "blockClass": "category"
     }
   },
   "menu-item#SubMenuIndependeciaItem2": {
@@ -1750,7 +1802,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
+        "href": "/comodos%20sanitarios?_q=comodos%20sanitarios&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Cómodos Sanitarios"
@@ -1798,7 +1850,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Superficies-especiales-para-el-manejo-de-la-presión",
+        "href": "/superficies%20especiales%20para%20el%20manejo%20de%20la%20presión?_q=Superficies%20especiales%20para%20el%20manejo%20de%20la%20presión&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Superficies especiales para el manejo de la presión"
@@ -1846,7 +1898,8 @@
         "noFollow": true,
         "tagTitle": "FAQ",
         "text": "Monitoreo arterial, de temperatura y de peso"
-      }
+      },
+      "blockClass": "category"
     }
   },
   "menu-item#SubMenuIndependeciaItem8": {
@@ -1889,7 +1942,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/balanza-digital",
+        "href": "/balanza%20digital?_q=balanza%20digital&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Balanza Digital"
@@ -1982,7 +2035,8 @@
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Lesiones musculares y óseas"
-      }
+      },
+      "blockClass": "category"
     }
   },
   "menu-item#subMenuTerapiaSubItem": {
@@ -2025,7 +2079,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Cintas-kinesiologicas",
+        "href": "/cintas%20kinesiologicas?_q=Cintas%20kinesiológicas&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Cintas kinesiológicas"
@@ -2121,7 +2175,8 @@
         "noFollow": true,
         "tagTitle": "FAQ",
         "text": "Respiratoria"
-      }
+      },
+      "blockClass": "category"
     }
   },
   "menu-item#subMenuTerapiaSubItem2": {
@@ -2132,7 +2187,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Aspirador-de-secreciones",
+        "href": "/aspirador%20de%20secreciones?_q=aspirador%20de%20secreciones&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Aspirador de secreciones"
@@ -2148,7 +2203,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Compresor-nebulizador",
+        "href": "/compresor%20nebulizador?_q=compresor%20nebulizador&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Compresor nebulizador"
@@ -2164,7 +2219,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Reguladores-de-oxigeno",
+        "href": "/reguladores%20de%20oxigeno?_q=reguladores%20de%20oxigeno&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Reguladores de oxígeno"
@@ -2180,7 +2235,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Cilindros-de-oxigeno",
+        "href": "/cilindros%20de%20oxigeno?_q=cilindros%20de%20oxigeno&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Cilindros de oxígeno"
@@ -2196,7 +2251,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/terapia-en-el-hogar",
+        "href": "/terapia%20en%20el%20hogar?_q=terapia%20en%20el%20hogar&map=ft",
         "noFollow": true,
         "tagTitle": "verTodo",
         "text": "Ver todo"
@@ -2274,7 +2329,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/tapabocas-y-desinfeccion/gel-antibacterial",
+        "href": "/gel%20antibacterial?_q=gel%20antibacterial&map=ft",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "Gel Antibacterial"
@@ -2304,7 +2359,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/terapia-en-el-hogar",
+        "href": "/tapabocas%20y%20desinfeccion?_q=tapabocas%20y%20desinfeccion&map=ft",
         "noFollow": true,
         "tagTitle": "verTodo",
         "text": "Ver todo"
@@ -2312,19 +2367,637 @@
       "blockClass": "verTodo"
     }
   },
+  //menus Profesionales de la salud
+  "vtex.menu@2.x:submenu#more5": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more5"
+    ]
+  },
+  "flex-layout.row#menu-more5": {
+    "children": [
+      "flex-layout.col#menu-more-5"
+    ]
+  },
+  "flex-layout.col#menu-more-5": {
+    "children": [
+      "vtex.menu@2.x:menu#more5"
+    ]
+  },
+  "vtex.menu@2.x:menu#more5": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "disclosure-layout#subMenuProf",
+      "disclosure-layout#subMenuProf2",
+      "disclosure-layout#subMenuProf3",
+      "disclosure-layout#subMenuProf4",
+      "disclosure-layout#subMenuProf5",
+    "menu-item#VerTodo5"
+  ]
+},
+  //sub items menu 
+  
+  "menu-item#VerTodo5": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tapabocas%20y%20desinfeccion?_q=tapabocas%20y%20desinfeccion&map=ft",
+        "noFollow": true,
+        "tagTitle": "verTodo",
+        "text": "Ver todo"
+      },
+      "blockClass": "verTodo"
+    }
+  },
+  //sub items menu 
+  "disclosure-layout#subMenuProf": {
+    "children": ["disclosure-trigger#subMenuLesionesMus", "disclosure-content#subMenuLesionesMus"]
+  },
+  "disclosure-trigger#subMenuLesionesMus": {
+    "children": ["menu-item#subMenuLesionesMus"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#subMenuLesionesMus": {
+    "children": ["menu-item#subMenuLesionesMus1","menu-item#subMenuLesionesMus2","menu-item#subMenuLesionesMus3","menu-item#subMenuLesionesMus4","menu-item#subMenuLesionesMus5","menu-item#subMenuLesionesMus6","menu-item#subMenuLesionesMus7"]
+  },
+  "menu-item#subMenuLesionesMus": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Lesiones musculares y óseas"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuLesionesMus1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/compresas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Compresas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tens",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "TENS"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Cintas-kinesiologicas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cintas kinesiológicas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fajas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Fajas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuellos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "cuellos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus6": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rodilleras",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Rodilleras"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuLesionesMus7": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cabestrillos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cabestrillos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 2
+  "disclosure-layout#subMenuProf2": {
+    "children": ["disclosure-trigger#subMenuRespiratoria", "disclosure-content#subMenuRespiratoria"]
+  },
+  "disclosure-trigger#subMenuRespiratoria": {
+    "children": ["menu-item#subMenuRespiratoria"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#subMenuRespiratoria": {
+    "children": [ "menu-item#subMenuTerapiaSubItem2","menu-item#subMenuTerapiaSubItem3","menu-item#subMenuTerapiaSubItem4","menu-item#subMenuTerapiaSubItem5"]
+  },
+  "menu-item#subMenuRespiratoria": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Respiratoria"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuRespiratoria1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Aspirador-de-secreciones",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Aspirador de secreciones"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuRespiratoria2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Compresor-nebulizador",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Compresor nebulizador"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuRespiratoria3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Reguladores-de-oxigeno",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Reguladores de oxígeno"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuRespiratoria4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Cilindros-de-oxigeno",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cilindros de oxígeno"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 3
+  "disclosure-layout#subMenuProf3": {
+    "children": ["disclosure-trigger#subMenuCuadernos", "disclosure-content#subMenuCuadernos"]
+  },
+  "disclosure-trigger#subMenuCuadernos": {
+    "children": ["menu-item#subMenuCuadernos"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#subMenuCuadernos": {
+    "children": [ "menu-item#subMenuCuadernos1","menu-item#subMenuCuadernos2","menu-item#subMenuCuadernos3","menu-item#subMenuCuadernos4","menu-item#subMenuCuadernos5"]
+  },
+  "menu-item#subMenuCuadernos": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Cuadernos, lapiceros y otros accesorios"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuCuadernos1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Lapiceros",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Lapiceros"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuCuadernos2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Cuadernos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cuadernos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuCuadernos3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Pines",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Pines"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuCuadernos4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cintas%20metricas?_q=cintas%20metricas&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Cintas métricas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuCuadernos5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/RCP",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "RCP"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 4
+  "disclosure-layout#subMenuProf4": {
+    "children": ["disclosure-trigger#subMenuEvaluacion", "disclosure-content#subMenuEvaluacion"]
+  },
+  "disclosure-trigger#subMenuEvaluacion": {
+    "children": ["menu-item#subMenuEvaluacion"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#subMenuEvaluacion": {
+    "children": [ "menu-item#subMenuCuadernos1","menu-item#subMenuCuadernos2","menu-item#subMenuCuadernos3","menu-item#subMenuCuadernos4","menu-item#subMenuCuadernos5"]
+  },
+  "menu-item#subMenuEvaluacion": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Evaluación de órganos y sentidos"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuEvaluacion1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Fonendoscopios",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Fonendoscopios"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Kits",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Kits"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tensiometros",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tensiómetros"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion4": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Otoscopios",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Otoscopios"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion5": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Martillos",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Martillos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion6": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kits%20de%20organos?_q=kits%20de%20organos&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Kits de órganos"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuEvaluacion7": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Linternas",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Linternas"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  //sub menu 5
+  "disclosure-layout#subMenuProf5": {
+    "children": ["disclosure-trigger#subMenuInstrumentos", "disclosure-content#subMenuInstrumentos"]
+  },
+  "disclosure-trigger#subMenuInstrumentos": {
+    "children": ["menu-item#subMenuInstrumentos"],
+    "props": {
+      "blockClass":"SubMenuMovilidad" 
+    }
+  },
+  "disclosure-content#subMenuInstrumentos": {
+    "children": [ "menu-item#subMenuInstrumentos1","menu-item#subMenuInstrumentos2","menu-item#subMenuInstrumentos3"]
+  },
+  "menu-item#subMenuInstrumentos": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Instrumentos para pequeñas cirugías"
+      },
+      "blockClass": "category"
+    }
+  },
+  "menu-item#subMenuInstrumentos1": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Tijeras",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Tijeras"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuInstrumentos2": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Torniquetes",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Torniquetes"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
+  "menu-item#subMenuInstrumentos3": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sistemas%20de%20diseccion?_q=sistemas%20de%20diseccion&map=ft",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Sistemas de disección"
+      },
+      "blockClass": "SubCategory"
+    }
+  },
   //header 
   "flex-layout.row#PreMobile": {
     "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
       "fullWidth": false,
       "blockClass":"Pre-header"
     },
     "children": [
       "drawer",
-      "flex-layout.col#search-bar"
+      "flex-layout.col#search-barMo"
     ]
+  },
+  "flex-layout.col#search-barMo":{
+    "props": {
+      "verticalAlign": "middle",
+      "width": "grow"
+    },
+    "children": ["search-bar#Mo"]
+  },
+  "search-bar#Mo":{
+    "props":{
+      "width": "100%",
+      "placeholder": "ESCRIBE AQUÍ LO QUE NECESITAS"
+    }
   }
 }

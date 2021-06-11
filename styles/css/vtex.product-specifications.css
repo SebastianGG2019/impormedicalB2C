@@ -1,7 +1,11 @@
 .specificationName {
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+.specificationValue[data-specification-name="Tipo de caminador"] {
     display: none;
 }
-
 .groupName {
     display: none;
 }

@@ -13,6 +13,7 @@
     color: transparent;
 }
 .quantitySelectorContainer{
+    margin-bottom: 0;
     display: block;
     -webkit-box-orient: unset;
     -webkit-box-direction: unset;
@@ -59,6 +60,7 @@
 }
 .quantitySelectorStepper{
     height: 25px;
+    margin-top: 13px;
 }
 .availableQuantityContainer {
     margin: 0 19px;

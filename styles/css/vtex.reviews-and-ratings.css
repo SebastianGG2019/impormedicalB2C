@@ -1,11 +1,9 @@
 .stars {
     color: #ffc100;
     font-size: 20px;
-}
-.summaryContainer {
     position: absolute;
-    top: 53px;
     right: 0;
+    top: 5px;
 }
 .star {
     margin: 0 1px;
@@ -32,8 +30,22 @@
 .writeReviewContainer :global(.vtex__icon-caret-down){
     margin-left:40px;
 }
+.reviewComment  .stars {
+    position: relative;
+}
+.reviewsRating .stars{
+    position: relative;
+}
+.formContainer :global(.vtex-button){
+    background-color: #0f0095 !important;
+}
 @media (min-width: 64rem) {
     .reviewCommentsContainer {
       width: 700px;
+    }
+  }
+  @media (max-width: 600px) {
+    .stars {
+        top: -23px;
     }
   }

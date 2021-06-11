@@ -62,9 +62,6 @@
 .infoCardCallActionContainer--Mio{
   text-decoration: none;
 }
-.infoCardContainer--Mio{
-  background: #ffc100;
-}
 .infoCardContainer--marcas,
 .infoCardContainer--marcas-icon1,.infoCardContainer--marcas-icon2,.infoCardContainer--marcas-icon3,.infoCardContainer--marcas-icon4,
 .infoCardContainer--marcas-icon5, .infoCardContainer--marcas-icon6, .infoCardContainer--marcas-icon7,
@@ -186,6 +183,11 @@
 .imageElementLink{
   display: flex;
   justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.imageElement{
+  transition: all 400ms;
 }
 .infoCardHeadline--textfool, .infoCardHeadline--textfool2, .infoCardHeadline--textfool3{
   font-size: 13px;
@@ -263,7 +265,7 @@
 }
 .currencyContainer{
   color: #3e3e3e;
-  font-family: 'Century Gothic';
+  font-family: 'Century Gothic','Poppins';
   font-size: 21px;
   font-weight: 700;
 }
@@ -271,7 +273,69 @@
   font-size: 14px;
   line-height: 24px;
   text-align: justify;
-  font-weight: 300;
+  font-weight: 400;
+  color: black;
+}
+.imageElementLink--bannerLateralDerecho::before{
+  content: "AYUDARTE A MOVILIZAR";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9;
+  width: 70%;
+  text-align: right;
+}
+.imageElementLink--imagenMosaico1::before{
+  content: "PARA EL CUIDADO DEL CORAZÓN";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  z-index: 9;
+  right: 20px;
+  width: 43%;
+  text-align: right;
+
+}
+.imageElementLink--imagenMosaico2::before{
+  content: "COMPLETA TU ESTILO";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  z-index: 9;
+  bottom: 10px;
+  right: 20px;
+  width: 71%;
+  text-align: right;
+}
+.imageElementLink--imagenMosaico3::before{
+  content: "CUIDA TU SISTEMA RESPIRATORIO";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  z-index: 9;
+  right: 20px;
+  width: 65%;
+  text-align: right;
+}
+.imageElementLink--imagenMosaico4::before{
+  content: "AQUÍ ENCONTRARÁS LOS MEJORES INSTRUMENTOS";
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  z-index: 9;
+  width: 100%;
+  text-align: right;
 }
 .thumbImg{
   width: 94%;
@@ -355,11 +419,6 @@
   margin: 0 0 0 0;
 }
 
-.skuSelectorItemTextValue::before {content: "Compra x Caja";font-size: 12px;font-weight: 500;color: black;}
-
-.skuSelectorItem--unidad .skuSelectorItemTextValue::before {
-  content: "Compra x unidad";font-size: 12px;font-weight: 500;color: black;
-}
 
 .skuSelectorItem--selected .skuSelectorItemTextValue::after {
   content: "";
@@ -468,8 +527,9 @@
   position: absolute;
   top: 20%;
   transition: all 40ms;
-  left: 28%;
+  left: 30%;
   opacity: 0;
+  cursor: pointer;
 }
 .infoCardImage--marcas-icon3, .infoCardImage--marcas-icon4, .infoCardImage--marcas-icon1, .infoCardImage--marcas-icon2, .infoCardImage--marcas-icon4, .infoCardImage--marcas-icon5, .infoCardImage--marcas-icon5, .infoCardImage--marcas-icon7, .infoCardImage--marcas-icon8, .infoCardImage--marcas-icon9, .infoCardImage--marcas-icon10, .infoCardImage--marcas-icon11, .infoCardImage--marcas-icon12, .infoCardImage--marcas-icon13, .infoCardImage--marcas-icon14{
   transition: all 400ms;
@@ -493,10 +553,11 @@
   height: 90px;
   margin-top: 0px;
   position: absolute;
-  top: 14%;
+  top: 20%;
   transition: all 40ms;
-  left: 31%;
+  left: 35%;
   opacity: 0;
+  cursor: pointer;
 }
 .infoCardImageContainer--marcas-icon4:hover::before{
   opacity: 1;
@@ -518,8 +579,9 @@
   position: absolute;
   top: 20%;
   transition: all 40ms;
-  left: 26%;
+  left: 42%;
   opacity: 0;
+  cursor: pointer;
 }
 .infoCardImageContainer--marcas-icon1:hover::before{
   opacity: 1;
@@ -539,10 +601,11 @@
   height: 90px;
   margin-top: 0px;
   position: absolute;
-  top: 20%;
+  left: 32%;
+  top: 28%;
   transition: all 40ms;
-  left: 26%;
   opacity: 0;
+  cursor: pointer;
 }
 .infoCardImageContainer--marcas-icon2:hover::before{
   opacity: 1;
@@ -564,8 +627,9 @@
   position: absolute;
   top: 20%;
   transition: all 40ms;
-  left: 38%;
+  left:41%;
   opacity: 0;
+  cursor: pointer;
 }
 .infoCardImageContainer--marcas-icon5:hover::before{
   opacity: 1;
@@ -589,6 +653,7 @@
   transition: all 40ms;
   left: 31%;
   opacity: 0;
+  cursor: pointer;
 }
 .infoCardImageContainer--marcas-icon6:hover::before{
   opacity: 1;
@@ -612,6 +677,7 @@
   transition: all 40ms;
   left: 26%;
   opacity: 0;
+  cursor: pointer;
 }
 .infoCardImageContainer--marcas-icon7:hover::before{
   opacity: 1;
@@ -635,6 +701,7 @@
     transition: all 40ms;
     left: 39%;
     opacity: 0;
+    cursor: pointer;
 }
 .infoCardImageContainer--marcas-icon8:hover::before{
   opacity: 1;
@@ -656,8 +723,9 @@
   position: absolute;
   top: 20%;
   transition: all 40ms;
-  left: 38%;
+  left: 40%;
   opacity: 0;
+  cursor: pointer;
 }
 .infoCardImageContainer--marcas-icon9:hover::before{
   opacity: 1;
@@ -679,8 +747,9 @@
   position: absolute;
   top: 20%;
   transition: all 40ms;
-  left: 26%;
+  left: 35%;
   opacity: 0;
+  cursor: pointer;
 }
 .infoCardImageContainer--marcas-icon10:hover::before{
   opacity: 1;
@@ -702,8 +771,9 @@
     position: absolute;
     top: 20%;
     transition: all 40ms;
-    left: 39%;
+    left: 43%;
     opacity: 0;
+    cursor: pointer;
 }
 .infoCardImageContainer--marcas-icon11:hover::before{
   opacity: 1;
@@ -727,6 +797,7 @@
     transition: all 40ms;
     left: 39%;
     opacity: 0;
+    cursor: pointer;
 }
 .infoCardImageContainer--marcas-icon12:hover::before{
   opacity: 1;
@@ -750,6 +821,8 @@
   transition: all 40ms;
   left: 26%;
   opacity: 0;
+  opacity: 0;
+  cursor: pointer;
 }
 .infoCardImageContainer--marcas-icon13:hover::before{
   opacity: 1;
@@ -773,12 +846,56 @@
   transition: all 40ms;
   left: 35%;
   opacity: 0;
+  cursor: pointer;
 }
 .infoCardImageContainer--marcas-icon14:hover::before{
   opacity: 1;
   z-index: 99;
 }
 .infoCardImage--marcas-icon14:hover{
+  filter: brightness(0.7);
+}
+/*Hover*/
+.infoCardImageContainer--marcas-icon1:hover .infoCardImage--marcas-icon1{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon2:hover .infoCardImage--marcas-icon2{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon3:hover .infoCardImage--marcas-icon3{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon4:hover .infoCardImage--marcas-icon4{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon5:hover .infoCardImage--marcas-icon5{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon6:hover .infoCardImage--marcas-icon6{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon7:hover .infoCardImage--marcas-icon7{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon8:hover .infoCardImage--marcas-icon8{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon9:hover .infoCardImage--marcas-icon9{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon10:hover .infoCardImage--marcas-icon10{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon11:hover .infoCardImage--marcas-icon11{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon12:hover .infoCardImage--marcas-icon12{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon13:hover .infoCardImage--marcas-icon13{
+  filter: brightness(0.7);
+}
+.infoCardImageContainer--marcas-icon14:hover .infoCardImage--marcas-icon14{
   filter: brightness(0.7);
 }
 .searchIcon{
@@ -936,7 +1053,7 @@
   color: #140d2e;
 }
 .infoCardHeadline{
-  font-family: 'Century Gothic';
+  font-family: 'Century Gothic', 'Poppins';
 }
 @media (max-width: 600px) {
   .imageElement--BannerPagosD{
@@ -988,7 +1105,7 @@
   .infoCardImageContainer--marcas-icon1::before{
     opacity: 1;
     left: 32%;
-    width: 60px;
+    width: 53px;
     z-index: 999999;
   }
   /*Ctegoria 2*/
@@ -996,6 +1113,7 @@
     opacity: 1;
     top: 26%;
     z-index: 999999;
+    left: 21%;
   }
   /*Ctegoria 5*/
   .infoCardImageContainer--marcas-icon5::before{
@@ -1096,6 +1214,10 @@
   .infoCardContainer--BannerDos {
     height: 387px;
   }
+  .infoCardContainer--BannerDos{
+    margin: 0;
+    margin-left: 5px;
+  }
   .autoCompleteOuterContainer {
     border-radius: 6px;
   }
@@ -1129,7 +1251,7 @@
     margin: -18px 0 0 60% !important;
   }
   .productDescriptionContainer{
-    display: none;
+    margin-top: 10px;
   }
   .productImagesThumbActive {
     height: auto !important;
@@ -1167,7 +1289,8 @@
     margin: 0 0 0 -13px;
   }
   .infoCardContainer--BannerDosUno {
-    margin-right: 0;
+    margin-right: 5px;
+    margin-left: 0;
   }
   .infoCardCallActionText--Mio{
     font-weight: 400;
@@ -1287,5 +1410,23 @@
     display: flex;
     height: 94%;
     align-items: flex-end;
+  }
+  .inputGroup--newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .newsletter--newsletter {
+    width: 100%;
+  }
+  .form--newsletter {
+    width: auto !important;
+  }
+  .searchBarContainer{
+    width: 97%;
+  }
+  .buttonContainer--newsletter{
+    width: 100%;
   }
 }

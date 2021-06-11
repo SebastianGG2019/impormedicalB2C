@@ -14,7 +14,7 @@
   color: #0f0095;
 }
 .headingLevel1 {
-  font-family: 'Century Gothic';
+  font-family: 'Century Gothic', 'Poppins';
 }
 .container--tituloNewsletter{
   justify-content: center;
@@ -28,7 +28,7 @@
   margin: 0;
 }
 .paragraph--reviews{
-  margin: 0 100px 20px 100px;
+  margin: 0 0px 20px 20px;
 }
 .wrapper--textosPrinc {
   margin: -36px 0 0 0;
@@ -379,6 +379,16 @@
   }
   .wrapper--botones2Menu .link--botones1Menu{
     padding: 10px 14px;
+  }
+  .link--textFoo, .paragraph--textFoo{
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .link--textFooM {
+    font-weight: 300;
+  }
+  .container--textFooM:first-child {
+    display: none;
   }
 }
 .link--textFooM{
