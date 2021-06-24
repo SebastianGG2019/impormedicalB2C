@@ -424,6 +424,9 @@
   .flexRowContent--inputsNewsletter{
     display: block;
   }
+  .flexRow--reviews-and-ratings{
+    margin-left: 0px;
+  }
 }
 .flexRow--identifierProduct .stretchChildrenWidth   {
   padding: 0;
@@ -499,4 +502,22 @@
 .flexRow--mosaico :global(.vtex-store-components-3-x-imageElement):hover{
   transform: scale(1.05);
   border-radius: 5px;
+}
+.flexRow--InformacionDOCUMENTOS{
+  background-color: white;
+  border-radius: 5px;
+}
+.flexRowContent--InformacionDOCUMENTOS{
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.flexColChild--InformacionDOCUMENTOS{
+  display: table-cell;
+  column-count: 2;
+}
+.flexRow--reviews-and-ratings{
+  margin-left: 100px;
+}
+.flexColChild--reviews-only :global(.vtex-reviews-and-ratings-2-x-graphContent){
+  display: none;
 }

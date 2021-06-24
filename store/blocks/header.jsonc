@@ -417,7 +417,7 @@
       "blockClass": "submenu1"
     },
     "children": [
-      "flex-layout.col#submenu2",
+      "flex-layout.col#submenu3",
       "flex-layout.col#submenu5"
     ]
   },
@@ -687,7 +687,7 @@
   },
   "rich-text#titles-submenu24":{
     "props": {
-      "text":"[Sistemas de dirección](//sistemas%20de%20direccion?_q=Sistemas%20de%20direccion&map=ft)",
+      "text":"[Sistemas de disección](//sistemas%20de%20direccion?_q=Sistemas%20de%20direccion&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },

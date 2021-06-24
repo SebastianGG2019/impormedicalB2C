@@ -13,7 +13,8 @@
       "shelf#demo3",
       "tab-layout#home",
       "flex-layout.row#home2",
-      "flex-layout.row#home2Mobile"
+      "flex-layout.row#home2Mobile",
+      "tab-layout#chat"
     ]
   },
   //Slider Principal
@@ -731,6 +732,70 @@
           "blockClass":"Mio"
         }
       },
+      /*CHAT*/
+"tab-layout#chat": {
+  "children": [
+    "tab-content#chat",
+    "tab-list#chat"
+    
+  ],
+  "props": {
+    "blockClass": "chats",
+    "defaultActiveTabId": "chat1"
+  }
+},
+ "tab-list#chat": {
+     "children": [
+       "tab-list.item#chat1"
+     ]
+   },
+"tab-list.item#chat1": {
+  "props": {
+    "tabId": "chat1",
+    "label": "TE AYUDAMOS CON TU COMPRA",
+    "defaultActiveTab": true
+  }
+},
+ "tab-content#chat": {
+     "children": [
+       "tab-content.item#chat1"
+     ]
+   },
+   "tab-content.item#chat1": {
+     "children": [
+      "rich-text#llamanos",
+      "rich-text#whatsapp",
+      "rich-text#chatea"
+     ],
+     "props": {
+       "tabId": "chat1",
+       "blockClass": "contenidoDeChat"
+     }
+   },
+   "rich-text#llamanos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Llámanos](#)",
+      "blockClass": "tabChat1"
+    }
+  },
+  "rich-text#whatsapp": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Comunicate por Whatsapp](#)",
+      "blockClass": "tabChat2"
+    }
+  },
+  "rich-text#chatea": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Chatea con nosotros](#)",
+      "blockClass": "tabChat3"
+    }
+  },
       //banner mosaico Mobile
       "flex-layout.row#home2Mobile":{
         "children": [

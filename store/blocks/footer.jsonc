@@ -79,7 +79,7 @@
   },
   "rich-text#foo3":{
     "props": {
-      "text": "[¿Quienes somos?](/faqs)",
+      "text": "[¿Quienes somos?](/quienes-somos)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -237,7 +237,7 @@
   },
   "rich-text#foo13":{
     "props": {
-      "text": "[Profesionales de la salud ](/profesionales%20de%20la%20salud)",
+      "text": "[Profesionales de la salud ](/Profesionales-de-la-salud)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -246,7 +246,7 @@
   },
   "rich-text#foo14":{
     "props": {
-      "text": "[Protección e Higiene](/proteccion%20e%20higiene)",
+      "text": "[Protección e Higiene](/proteccion-e-higiene)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -255,7 +255,7 @@
   },
   "rich-text#foo15":{
     "props": {
-      "text": "[Control y prevención](/control%20y%20prevencion)",
+      "text": "[Control y prevención](/control-y-prevencion)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -282,7 +282,7 @@
   },
   "rich-text#foo152":{
     "props": {
-      "text": "[Terapia respiratoria](/terapia%20respiratoria)",
+      "text": "[Terapia respiratoria](/terapia-respiratoria)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -325,7 +325,7 @@
   },
   "rich-text#foo16":{
     "props": {
-      "text": "[Politica de entregas](/Soyekids)",
+      "text": "[Politica de entregas](/faqs)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -361,7 +361,7 @@
   },
   "rich-text#foo171":{
     "props": {
-      "text": "[WhatsApp 123 123 3434](/faqs)",
+      "text": "[WhatsApp 123 123 3434](https://crear.wa.link/)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",

@@ -395,3 +395,96 @@
   color: white;
   text-decoration: none;
 }
+.paragraph--tabChat1 {
+  font-size: 13px;
+  margin: 2px 0;
+}
+.paragraph--tabChat2 {
+  font-size: 13px;
+  margin: 2px 0;
+}
+.paragraph--tabChat3 {
+  font-size: 13px;
+  margin: 2px 0;
+  text-align: left;
+  text-decoration: none;
+}
+.link--tabChat3 {
+  text-decoration: none;
+}
+.link--tabChat2 {
+  text-decoration: none;
+}
+.link--tabChat1 {
+  text-decoration: none;
+}
+.link--tabChat3::before {content: "";width: 10px;height: 10px;position: relative;background: url();}
+
+.container--tabChat1 {
+  background: #f4f4f4;
+  padding: 8px 11px 4px;
+  margin: 5px 0;
+  color: white;
+  text-align: left;
+  border: 1px solid #dbdbdb;
+  border-radius: 7px;
+  width: 100%;
+}
+.container--tabChat2 {
+  background: #f4f4f4;
+  padding: 8px 11px 4px;
+  margin: 5px 0;
+  color: white;
+  text-align: left;
+  border: 1px solid #dbdbdb;
+  border-radius: 7px;
+  width: 100%;
+}
+.container--tabChat3 {
+  background: #f4f4f4;
+  padding: 8px 11px 4px;
+  margin: 5px 0;
+  color: white;
+  text-align: left;
+  border: 1px solid #dbdbdb;
+  border-radius: 7px;
+  width: 100%;
+}
+.link--tabChat1 {
+  text-align: left;
+  color: black;
+}
+
+.wrapper--tabChat1 {
+  width: 100%;
+}
+.wrapper--tabChat2 {
+  width: 100%;
+}
+.link--tabChat2 {
+  text-align: left;
+  color: black;
+}
+.wrapper--tabChat3 {
+  width: 100%;
+}
+.link--tabChat3 {
+  text-align: left;
+  color: black;
+}
+.paragraph--tabChat2 {
+  text-align: left;
+}
+.wrapper--tabChat1::before {content: "";background: url(https://impormedical.vteximg.com.br/arquivos/icono_tel_nohover.png);width: 24px;height: 24px;background-size: 82%;position: relative;display: block;background-repeat: no-repeat;margin: 0 5px 0 0;}
+.wrapper--tabChat3::before {content: "";background: url(https://impormedical.vteximg.com.br/arquivos/icono_chat_nohover.png);width: 24px;height: 24px;background-size: 82%;position: relative;display: block;background-repeat: no-repeat;margin: 0 5px 0 0;}
+.wrapper--tabChat2::before {content: "";background: url(https://impormedical.vteximg.com.br/arquivos/icono_wp_nohover.png);width: 24px;height: 24px;background-size: 82%;position: relative;display: block;background-repeat: no-repeat;margin: 0 5px 0 0;}
+
+.wrapper--tabChat1 {
+    display: flex;
+}
+.wrapper--tabChat2 {
+    display: flex;
+}
+.wrapper--tabChat3 {
+    display: flex;
+}
