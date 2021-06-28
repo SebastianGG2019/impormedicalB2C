@@ -52,7 +52,7 @@
       "props":{
         "id":"texting",
         "imageUrl":"https://impormedical.vteximg.com.br/arquivos/bannerB2C.jpg",
-        "callToActionText": "Ver más productos",
+        "callToActionText": "VER MÁS PRODUCTOS",
         "callToActionUrl": "#",
         "textPosition": "left",
         "textAlignment": "left",
