@@ -14,8 +14,7 @@
       "tab-layout#home",
       "flex-layout.row#home2",
       "flex-layout.row#home2Mobile",
-      "tab-layout#chat",
-      "sandbox#HOME"
+      "tab-layout#chat"
     ]
   },
   //Slider Principal
@@ -832,14 +831,6 @@
             "url":"#"
           },
           "blockClass": ["imagecompl", "imagencomp1segunda"]
-        }
-      },
-      "sandbox#HOME": {
-        "props": {
-          "width": "auto",
-          "height": "auto",
-          "initialContent": "<script src='<script type='text/javascript'> document.query</script>",
-          "allowCookies": false
         }
       }
 }
