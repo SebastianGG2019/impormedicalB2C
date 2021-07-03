@@ -304,7 +304,6 @@
       "rich-text#footitle5",
       "rich-text#foo16",
       "rich-text#foo17",
-      "rich-text#foo18",
       "rich-text#foo161",
       "rich-text#foo171",
       "rich-text#foo181",
@@ -325,7 +324,7 @@
   },
   "rich-text#foo16":{
     "props": {
-      "text": "[Politica de entregas](/faqs)",
+      "text": "[Politica de cookies](/faqs)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -334,7 +333,7 @@
   },
   "rich-text#foo17":{
     "props": {
-      "text": "[Politica de devoluciones](/faqs)",
+      "text": "[Politica de devoluciones](/politicas-devoluciones)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -352,7 +351,7 @@
   },
   "rich-text#foo161":{
     "props": {
-      "text": "[Politica de cancelación](/faqs)",
+      "text": "[Politica de datos](/politica-datos)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -361,7 +360,7 @@
   },
   "rich-text#foo171":{
     "props": {
-      "text": "[WhatsApp 123 123 3434](https://crear.wa.link/)",
+      "text": "[+57 312 7076387](https://wa.link/u6l71l)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
@@ -370,7 +369,7 @@
   },
   "rich-text#foo181":{
     "props": {
-      "text": "[PBX 01 80000 123 456](/faqs)",
+      "text": "[+57 301 4779931](tel:+573014779931)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",

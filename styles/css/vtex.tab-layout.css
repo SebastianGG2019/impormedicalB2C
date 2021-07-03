@@ -97,8 +97,7 @@
 .container--chats {
     position: fixed;
     bottom: 11px;
-    right: 0px;
-    display: none;
+    right: 0px; 
     z-index: 2147483647;
 }
 .container--chats .listItemActive {
@@ -184,7 +183,7 @@
     }
     .container--productM .listItemActive{
         background: white !important;
-        width: 50% !important;
+        width: 55% !important;
         margin-left: 0 !important;
         border-top-left-radius: 5px !important;
         border-top-right-radius: 5px !important;

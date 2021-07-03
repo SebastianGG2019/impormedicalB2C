@@ -216,8 +216,6 @@
       "tab-content.item#product1",
       "tab-list.item#product2",
       "tab-content.item#product2",
-      "tab-list.item#product4",
-      "tab-content.item#product4",
       "tab-list.item#product5",
       "tab-content.item#product5"
     ],
@@ -230,7 +228,6 @@
     "children":[
       "tab-list.item#product1",
       "tab-list.item#product2",
-     "tab-list.item#product4",
       "tab-list.item#product5"
     ]
   },
@@ -262,8 +259,7 @@
   "tab-content#product":{
     "children":[
       "tab-content.item#product1",
-      "tab-content.item#product2",
-      "tab-content.item#product4", 
+      "tab-content.item#product2", 
       "tab-content.item#product5"
     ],
     "props": {
@@ -390,65 +386,6 @@
       "blockClass": "especificacionesBENE"
     }
   },
-   //CONTENIDO TAB 3
-"tab-content.item#product4": {
-  "children": [
-    "flex-layout.row#product4"
-  ],
-   "props": {
-    "tabId": "product4"
-  }
-},
-"flex-layout.row#product4":{
-  "children": [
-    "flex-layout.col#product4"
-  ],
-  "props":{
-    "blockClass": "InformacionDOCUMENTOS"
-  }
-},
-"flex-layout.col#product4":{
-  "children": [
-    "product-specification-group#tap4"
-  ],
-  "props":{
-    "blockClass": "InformacionDOCUMENTOS"
-  }
-},
-
-"product-specification-group#tap4": {
-  "children": ["product-specification-text#group1", "product-specification#1"],
-  "props":{
-    "blockClass": "in"
-  }
-},
-"product-specification#1": {
-  "children": [
-    "product-specification-text#specification4",
-    "product-specification-values#4"
-  ]
-},
-"product-specification-values#4": {
-  "children": ["product-specification-text#value4"]
-},
-"product-specification-text#group1": {
-  "props": {
-    "message": "{groupName}",
-    "blockClass": "especificacionesCuatro"
-  }
-},
-"product-specification-text#specification4": {
-  "props": {
-    "message": "{specificationName}",
-    "blockClass": "especificacionesCuatro"
-  }
-},
-"product-specification-text#value4": {
-  "props": {
-    "message": "{specificationValue}",
-    "blockClass": "especificacionesCuatro"
-  }
-},
  //Contenido del ultimo tabber
  "tab-content.item#product5": {
   "children": [

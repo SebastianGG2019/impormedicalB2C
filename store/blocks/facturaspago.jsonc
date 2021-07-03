@@ -1,8 +1,0 @@
-{
-    "store.custom#factura": {
-      "blocks": [
-        "flex-layout.row#about-us"
-      ]
-    }
-
-}

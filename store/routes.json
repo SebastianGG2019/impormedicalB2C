@@ -2,11 +2,11 @@
     "store.custom#about-us": {
         "path": "/quienes-somos"
       },
-    "store.custom#aviso-privacidad": {
-        "path": "/aviso-privacidad"
+    "store.custom#datos": {
+        "path": "/Politica-datos"
     },
-    "store.custom#terminos": {
-        "path": "/terminos-condiciones"
+    "store.custom#devoluciones": {
+        "path": "/politica-devoluciones"
     },
     "store.custom#faqs": {
       "path": "/faqs"

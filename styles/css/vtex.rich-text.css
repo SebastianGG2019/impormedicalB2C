@@ -390,6 +390,10 @@
   .container--textFooM:first-child {
     display: none;
   }
+  .paragraph--textostilo{
+    line-height: 20px;
+    text-align: justify;
+  }
 }
 .link--textFooM{
   color: white;

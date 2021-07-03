@@ -222,7 +222,7 @@
       "itemProps": {
         "type": "internal",
         "href": "/tapabocas%20y%20desinfeccion?_q=tapabocas%20y%20desinfeccion&map=ft",
-        "noFollow": false,
+        "noFollow": true,
         "tagTitle": "Categoría",
         "text": "TAPABOCAS Y DESINFECCIÓN"
       },
@@ -238,7 +238,7 @@
       "itemProps": {
         "type": "internal",
         "href": "/Profesionales-de-la-salud",
-        "noFollow": false,
+        "noFollow": true,
         "tagTitle": "Categoría",
         "text": "PROFESIONALES DE LA SALUD"
       },
@@ -342,31 +342,31 @@
   //COLUMNA DOS
   "rich-text#titles-submenu42":{
     "props": {
-      "text":"[SILLA DE RUEDAS](/SILLA-DE-RUEDAS)",
+      "text":"[SILLA DE RUEDAS](/silla%20dde%20ruedas?_q=silla%20dde%20ruedas&map=ft)",
       "blockClass": "tituoSubmenu"
     }
   },
   "rich-text#titles-submenu43":{
     "props": {
-      "text":"[Sillas de ruedas](/Sillas-de-ruedas)",
+      "text":"[Sillas de ruedas](/silla%20dde%20ruedas?_q=silla%20dde%20ruedas&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu44":{
     "props": {
-      "text":"[Cojines](/Cojines)",
+      "text":"[Cojines](/cojines?_q=cojines&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu45":{
     "props": {
-      "text":"[Respaldos](/respaldos)",
+      "text":"[Respaldos](/respaldos?_q=respaldos&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu46":{
     "props": {
-      "text":"[Soportes](/Soportes)",
+      "text":"[Soportes](/soportes%20laterales%20cefalicos?_q=Soportes%20laterales%20cefalicos&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -503,19 +503,19 @@
   //columna 1
   "rich-text#titles-submenu1":{
     "props": {
-      "text":"[LESIONES MUSCULARES Y ÓSEAS](/lesiones%20musculares%20y%20oseas?_q=lesiones%20musculares%20y%20oseas&map=ft)",
+      "text":"[LESIONES MUSCULARES Y ÓSEAS](/lesiones%20musculares%20oseas?_q=lesiones%20musculares%20oseas&map=ft)",
       "blockClass": "tituloSubemnu"
     }
   },
   "rich-text#titles-submenu2":{
     "props": {
-      "text":"[Compresas](/compresas)",
+      "text":"[Compresas](/compresas?_q=compresas&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenu3":{
     "props": {
-      "text":"[Tens](/tens)",
+      "text":"[Tens](/tens?_q=tens&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -526,7 +526,7 @@
     }
   },"rich-text#titles-submenu5":{
     "props": {
-      "text":"[Fajas](/fajas)",
+      "text":"[Fajas](/fajas?_q=Fajas&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -538,13 +538,13 @@
   },
   "rich-text#titles-submenuAdi2":{
     "props": {
-      "text":"[Rodilleras](/Rodilleras)",
+      "text":"[Rodilleras](/rodilleras?_q=rodilleras&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
   "rich-text#titles-submenuAdi3":{
     "props": {
-      "text":"[Cabestrillos](/Cabestrillos)",
+      "text":"[Cabestrillos](/cabestrillos?_q=cabestrillos&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -620,7 +620,7 @@
   //COLUMNA CUATRO
   "rich-text#titles-submenu17":{
     "props": {
-      "text":"[EVALUACIÓN DE ORGANOS Y SENTIDOS](https://impormedicalf--impormedical.myvtex.com/faqs)",
+      "text":"[EVALUACIÓN DE ORGANOS Y SENTIDOS](/evalucion%20control%20y%20prevencion?_c=control-y-prevencion&fuzzy=auto&initialMap=c,ft&initialQuery=control-y-prevencion/evalucion%20control%20y%20prevencion/control-y-prevencion/evalucion%20control%20y%20prevencion&map=ft&operator=or)",
       "blockClass": "tituoSubmenu"
     }
   },
@@ -669,13 +669,13 @@
   //columna cinco
   "rich-text#titles-submenu21":{
     "props": {
-      "text":"[INSTRUMENTOS PARA PEQUEÑAS CIRUGÍAS](/faqs)",
+      "text":"[INSTRUMENTOS PARA PEQUEÑAS CIRUGÍAS](/instrumentos-quirurgicos/instrumentos%20para%20pequeñas%20cirugias?_q=instrumentos%20para%20pequeñas%20cirugias&fuzzy=auto&initialMap=ft&initialQuery=instrumentos%20para%20pequeñas%20cirugias&map=category-2,ft&operator=or)",
       "blockClass": "tituoSubmenu"
     }
   },
   "rich-text#titles-submenu22":{
     "props": {
-      "text":"[Tijeras](/Tijeras)",
+      "text":"[Tijeras](/tijeras?_q=tijeras&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -687,7 +687,7 @@
   },
   "rich-text#titles-submenu24":{
     "props": {
-      "text":"[Sistemas de disección](//sistemas%20de%20direccion?_q=Sistemas%20de%20direccion&map=ft)",
+      "text":"[Sistemas de disección](/sistemas%20de%20diseccion?_q=sistemas%20de%20diseccion&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -780,7 +780,7 @@
   //columna 1
   "rich-text#titles-submenu35":{
     "props": {
-      "text":"[SEGURIDAD EN EL BAÑO](/seguridad-en-el-banio)",
+      "text":"[SEGURIDAD EN EL BAÑO](/seguridad%20en%20el%20baño?_q=seguridad%20en%20el%20baño&map=ft)",
       "blockClass": "tituloSubemnu"
     }
   },
@@ -804,7 +804,7 @@
   },
   "rich-text#titles-submenu29":{
     "props": {
-      "text":"[Eleva Sanitarios](/eleva%20sanitarios?_q=eleva%20sanitarios&map=fts)",
+      "text":"[Eleva Sanitarios](/eleva%20sanitarios?_q=eleva%20sanitarios&map=ft)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -836,7 +836,7 @@
   },
   "rich-text#titles-submenu33":{
     "props": {
-      "text":"[Almohadas](/Almohadas)",
+      "text":"[Almohadas](/#)",
       "blockClass": "contenidoSubemnu"
     }
   },
@@ -855,7 +855,7 @@
   //columna tres
   "rich-text#titles-submenuIndependencia1":{
     "props": {
-      "text":"[MONITOREO ARTERIAL, DE TEMPERATURA Y PESO](/monitoreo%20arterial?_q=Monitoreo%20arterial&map=ft)",
+      "text":"[MONITOREO ARTERIAL, DE TEMPERATURA Y PESO](/monitoreo%20arterial%20y%20peso?_q=monitoreo%20arterial%20y%20peso&map=ft)",
       "blockClass": "tituoSubmenu"
     }
   },
@@ -1156,7 +1156,7 @@
   //columna tres
   "rich-text#titles-submenuTapabocas3":{
     "props": {
-      "text":"[GEL ANTIBACTERIAL](/gel-amtibacterial)",
+      "text":"[GEL ANTIBACTERIAL](/gel%20antibacterial?_q=Gel%20Antibacterial&map=ft)",
       "blockClass": "tituoSubmenu"
     }
   },
@@ -2111,7 +2111,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/cuellos",
+        "href": "/",
         "noFollow": true,
         "tagTitle": "About us",
         "text": "cuellos"

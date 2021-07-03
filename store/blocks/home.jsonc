@@ -14,7 +14,8 @@
       "tab-layout#home",
       "flex-layout.row#home2",
       "flex-layout.row#home2Mobile",
-      "tab-layout#chat"
+      "tab-layout#chat",
+      "sandbox#HOME"
     ]
   },
   //Slider Principal
@@ -118,7 +119,7 @@
         "props":{
           "id":"texting",
           "imageUrl":"https://impormedical.vteximg.com.br/arquivos/1_imgrespiratoria.png",
-          "callToActionUrl": "/#",
+          "callToActionUrl": "/terapia-respiratoria",
           "textPosition": "CENTER",
           "textAlignment": "CENTER",
           "callToActionText": "Terapia respiratoria",
@@ -130,7 +131,7 @@
         "props":{
           "id":"texting",
           "imageUrl":"https://impormedical.vteximg.com.br/arquivos/2_imgba%C3%B1o.png",
-          "callToActionUrl": "#",
+          "callToActionUrl": "/independencia-y-cuidado-en-el-hogar",
           "textPosition": "CENTER",
           "textAlignment": "CENTER",
           "callToActionText": "Independencia y cuidado en el hogar",
@@ -142,7 +143,7 @@
         "props":{
           "id":"texting",
           "imageUrl":"https://impormedical.vteximg.com.br/arquivos/3_imgtapabocas.png",
-          "callToActionUrl": "#",
+          "callToActionUrl": "/proteccion-e-higiene",
           "textPosition": "CENTER",
           "textAlignment": "CENTER",
           "callToActionText": "Protección e higiene",
@@ -154,7 +155,7 @@
         "props":{
           "id":"texting",
           "imageUrl":"https://impormedical.vteximg.com.br/arquivos/4_imgsillaruedas.png",
-          "callToActionUrl": "#",
+          "callToActionUrl": "/movilidad",
           "textPosition": "CENTER",
           "textAlignment": "CENTER",
           "callToActionText": "Movilidad",
@@ -166,7 +167,7 @@
         "props":{
           "id":"texting",
           "imageUrl":"https://impormedical.vteximg.com.br/arquivos/5_imgayudas.png",
-          "callToActionUrl": "#",
+          "callToActionUrl": "/movilidad/ayudas-para-la-marcha",
           "textPosition": "CENTER",
           "textAlignment": "CENTER",
           "callToActionText": "Ayudas para la marcha",
@@ -178,7 +179,7 @@
         "props":{
           "id":"texting",
           "imageUrl":"https://impormedical.vteximg.com.br/arquivos/6_imghabitacion.png",
-          "callToActionUrl": "#",
+          "callToActionUrl": "/confort/descanso",
           "textPosition": "CENTER",
           "textAlignment": "CENTER",
           "callToActionText": "Descanso",
@@ -190,7 +191,7 @@
         "props":{
           "id":"texting",
           "imageUrl":"https://impormedical.vteximg.com.br/arquivos/7_imgmonitoreo.png",
-          "callToActionUrl": "#",
+          "callToActionUrl": "/control-y-prevencion/control-arterial",
           "textPosition": "CENTER",
           "textAlignment": "CENTER",
           "callToActionText": "Control arterial",
@@ -202,7 +203,7 @@
         "props":{
           "id":"texting",
           "imageUrl":"https://impormedical.vteximg.com.br/arquivos/8_imglesion.png",
-          "callToActionUrl": "#",
+          "callToActionUrl": "/cabestrillos?_q=cabestrillos&map=ft",
           "textPosition": "CENTER",
           "textAlignment": "CENTER",
           "callToActionText": "Cabestrillos",
@@ -214,7 +215,7 @@
         "props":{
           "id":"texting",
           "imageUrl":"https://impormedical.vteximg.com.br/arquivos/9_imgcareta.png",
-          "callToActionUrl": "#",
+          "callToActionUrl": "/caretas",
           "textPosition": "CENTER",
           "textAlignment": "CENTER",
           "callToActionText": "Caretas",
@@ -226,7 +227,7 @@
         "props":{
           "id":"texting",
           "imageUrl":"https://impormedical.vteximg.com.br/arquivos/10_imggel.png",
-          "callToActionUrl": "#",
+          "callToActionUrl": "/geles%20antibacteriales?_q=geles%20antibacteriales&map=ft",
           "textPosition": "CENTER",
           "textAlignment": "CENTER",
           "callToActionText": "Geles antibacteriales",
@@ -238,7 +239,7 @@
         "props":{
           "id":"texting",
           "imageUrl":"https://impormedical.vteximg.com.br/arquivos/11_imgalcohol.png",
-          "callToActionUrl": "#",
+          "callToActionUrl": "/alcohol",
           "textPosition": "CENTER",
           "textAlignment": "CENTER",
           "callToActionText": "Alcohol",
@@ -250,7 +251,7 @@
         "props":{
           "id":"texting",
           "imageUrl":"https://impormedical.vteximg.com.br/arquivos/12_imgotros.png",
-          "callToActionUrl": "#",
+          "callToActionUrl": "/cuadernos%20y%20lapiceros?_q=cuadernos%20y%20lapiceros&map=ft",
           "textPosition": "CENTER",
           "textAlignment": "CENTER",
           "callToActionText": "Otros",
@@ -262,7 +263,7 @@
         "props":{
           "id":"texting",
           "imageUrl":"https://impormedical.vteximg.com.br/arquivos/13_imgsentidos.png",
-          "callToActionUrl": "#",
+          "callToActionUrl": "/kits%20de%20organos%20y%20sentidos?_q=kits%20de%20organos%20y%20sentidos&map=ft",
           "textPosition": "CENTER",
           "textAlignment": "CENTER",
           "callToActionText": "Kits de órganos y sentidos",
@@ -274,7 +275,7 @@
         "props":{
           "id":"texting",
           "imageUrl":"https://impormedical.vteximg.com.br/arquivos/14_imgtijeras.png",
-          "callToActionUrl": "#",
+          "callToActionUrl": "/primeros%20auxilios?_q=primeros%20auxilios&map=ft",
           "textPosition": "CENTER",
           "textAlignment": "CENTER",
           "callToActionText": "Primeros Auxilios",
@@ -617,7 +618,7 @@
         "props":{
           "src":"https://impormedical.vteximg.com.br/arquivos/BannerMovilidad.png",
           "link":{
-            "url":"#"
+            "url":"/balanza%20monitoreo%20arterial?_q=balanza%20monitoreo%20arterial&map=ft"
           },
           "title": "PARA EL CUIDADO DEL CORAZÓN",
           "blockClass": ["imagecomplG","imagenMosaico1"]
@@ -627,7 +628,7 @@
         "props":{
           "src":"https://impormedical.vteximg.com.br/arquivos/bannersec2.png",
           "link":{
-            "url":"#"
+            "url":"/lapicero%20cuadernos%20accesorios?_q=lapicero%20cuadernos%20accesorios&map=ft"
           },
           "blockClass": ["imagecomplP","imagenMosaico2"]
         }
@@ -636,7 +637,7 @@
         "props":{
           "src":"https://impormedical.vteximg.com.br/arquivos/bannersec3.png",
           "link":{
-            "url":"#"
+            "url":"/aspirador%20compresor%20reguladores%20cilindros?_q=aspirador%20compresor%20reguladores%20cilindros&map=ft"
           },
           "blockClass": ["imagecomplP", "imagenMosaico3"]
         }
@@ -645,7 +646,7 @@
         "props":{
           "src":"https://impormedical.vteximg.com.br/arquivos/Bannerterapia.png",
           "link":{
-            "url":"#"
+            "url":"/sistema%20diseccion%20torniquete?_q=Sistema%20diseccion%20torniquete&map=ft"
           },
           "blockClass": ["imagecomplG","imagenMosaico4"]
         }
@@ -662,7 +663,7 @@
         "props":{
           "src":"https://impormedical.vteximg.com.br/arquivos/bannersec5.png",
           "link":{
-            "url":"#"
+            "url":"/movilidad"
           },
           "blockClass": ["imagecompl","bannerLateralDerecho"]
         }
@@ -776,7 +777,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[Llámanos](#)",
+      "text": "[Llámanos](tel:+573014779931)",
       "blockClass": "tabChat1"
     }
   },
@@ -784,7 +785,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[Comunicate por Whatsapp](#)",
+      "text": "[Comunicate por Whatsapp](https://wa.link/u6l71l)",
       "blockClass": "tabChat2"
     }
   },
@@ -831,6 +832,14 @@
             "url":"#"
           },
           "blockClass": ["imagecompl", "imagencomp1segunda"]
+        }
+      },
+      "sandbox#HOME": {
+        "props": {
+          "width": "auto",
+          "height": "auto",
+          "initialContent": "<script src='<script type='text/javascript'> document.query</script>",
+          "allowCookies": false
         }
       }
 }
