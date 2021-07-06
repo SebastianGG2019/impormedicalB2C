@@ -378,7 +378,7 @@
   },
   "rich-text#foo162":{
     "props": {
-      "text": "[e-mail info@impormedical.com](mailto:info@impormedical.com)",
+      "text": "[e-mail: hola@siempresalud.com.co](mailto:hola@siempresalud.com.co)",
       "textAlignment": "left",
       "font": "t-heading-3",
       "textPosition": "left",
