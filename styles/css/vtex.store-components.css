@@ -110,7 +110,7 @@
   margin: 0;
   height: 100%;
   padding-top: 216px;
-  z-index: 99;
+  z-index: 99999;
 }
 .infoCardTextContainer--marcas,  
 .infoCardTextContainer--marcas-icon1,.infoCardTextContainer--marcas-icon2,.infoCardTextContainer--marcas-icon3,.infoCardTextContainer--marcas-icon4,

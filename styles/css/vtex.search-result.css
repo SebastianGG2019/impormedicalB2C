@@ -153,8 +153,9 @@
     max-width: 100%;
 }
 .galleryItem--normal{
-    height: 410px;
+    height: auto;
     padding: 0;
+    min-height: 454px;
 }
 .filter__container--title{
     display: none;
@@ -946,3 +947,4 @@
 .filter__container--metodo-de-medicion { display: none; }
 .filter__container--grados-de-basculacion { display: none;}
 .filter__container--tipo-de-reclinacion { display: none;}
+.filter__container--beneficios{display: none;}

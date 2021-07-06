@@ -203,6 +203,7 @@
   justify-content: flex-start;
   border-radius: 0;
   margin-top: -8px;
+  min-height: 81px;
 }
 .element:hover .imageNormal{
   border-bottom-right-radius: 0 !important;
