@@ -209,13 +209,15 @@
 }
 .link--botones1Menu{
   padding: 10px;
-  text-decoration: none;
-  margin: 10px;
-  color: #191531;
-  font-weight: 700;
-  border: 2px solid #191531;
-  background: transparent;
-  transition: all 400ms;
+    text-decoration: none;
+    margin: 10px;
+    color: #191531;
+    font-weight: 700;
+    border: 2px solid #191531;
+    background: transparent;
+    transition: all 400ms;
+    width: 104px;
+    display: block;
 }
 .link--botones1Menu:hover{
   background: white;

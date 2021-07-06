@@ -142,7 +142,6 @@
     "children": [
       "menu-item#Category1",
       "menu-item#Category2",
-      "menu-item#Category3",
       "menu-item#Category4",
       "menu-item#Category5",
       "rich-text#titles-botonMenu1",
@@ -192,7 +191,7 @@
         "href": "/independencia-y-cuidado-en-el-hogar",
         "noFollow": false,
         "tagTitle": "Categoría",
-        "text": "INDEPENDENCIA Y CUIDADO EN EL HOGAR"
+        "text": "CUIDADO EN EL HOGAR"
       },
       "blockClass": "MovilidadMenu"
     },
@@ -691,7 +690,7 @@
       "blockClass": "contenidoSubemnu"
     }
   },
-  //submenu independencia y cuidado en el hogar
+  //submenu Cuidado en el hogar
   "vtex.menu@2.x:submenu#shop2": {
     "children": [
       "vtex.menu@2.x:menu#submenushop2"
@@ -715,7 +714,8 @@
       "blockClass": "submenu1Mayor"
     },
     "children": [
-      "flex-layout.row#submenu4"
+      "flex-layout.row#submenu4",
+      "flex-layout.row#submenuIndependencia"
     ]
   },
   "flex-layout.row#submenu4":{
@@ -727,6 +727,17 @@
     "children": [
       "flex-layout.col#submenu6",
       "flex-layout.col#submenu7",
+      "flex-layout.col#submenuTerapia1"
+    ]
+  },
+  "flex-layout.row#submenuIndependencia":{
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": ["submenu1", "submenu2"]
+    },
+    "children": [
+      "flex-layout.col#submenu2",
       "flex-layout.col#submenuIndependencia8"
     ]
   },
