@@ -98,7 +98,7 @@
     position: fixed;
     bottom: 11px;
     right: 0px; 
-    z-index: 2147483647;
+    z-index: 1;
 }
 .container--chats .listItemActive {
     color: white;
