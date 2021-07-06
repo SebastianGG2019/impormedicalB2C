@@ -289,6 +289,7 @@
         padding: 0;
         background: transparent;
         position: relative;
+        height: auto;
     }
     .menuItem:last-child {
         margin-bottom: 0px !important;

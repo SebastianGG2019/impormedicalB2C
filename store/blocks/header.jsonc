@@ -1301,7 +1301,6 @@
     "children": [
       "menu-item#movilidad",
       "menu-item#independencia",
-      "menu-item#terapia",
       "menu-item#tapabocas",
       "menu-item#profesionales",
       "rich-text#titles-botonMenu1",
@@ -1339,7 +1338,7 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "More",
-        "text": "Independencia y cuidado en el hogar"
+        "text": "Cuidado en el hogar"
       },
       "blockClass": "department"
     },
@@ -1667,6 +1666,8 @@
       "disclosure-layout#subMenuIndependencia",
       "disclosure-layout#SubMenuIndependecia2",
       "disclosure-layout#SubMenuIndependecia3",
+      "disclosure-layout#subMenuProf2",
+      "disclosure-layout#subMenuTerapia",
       "menu-item#VerTodo2"
     ]
   },
