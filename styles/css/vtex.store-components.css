@@ -188,10 +188,12 @@
   display: flex;
   justify-content: center;
   border-radius: 5px;
+  height: 100%;
   overflow: hidden;
 }
 .imageElement{
   transition: all 400ms;
+  width: 100%;
 }
 .infoCardHeadline--textfool, .infoCardHeadline--textfool2, .infoCardHeadline--textfool3{
   font-size: 13px;
@@ -341,6 +343,23 @@
   width: 100%;
   text-align: right;
 }
+@media (min-width: 1800px) {
+  .imageElementLink--bannerLateralDerecho::before{
+    right: 35px;
+  }
+  .imageElementLink--imagenMosaico1::before{
+    right: 35px;
+  }
+  .imageElementLink--imagenMosaico2::before{
+    right: 35px;
+  }
+  .imageElementLink--imagenMosaico3::before{
+    right: 35px;
+  }
+  .imageElementLink--imagenMosaico4::before{
+      right: 35px;
+  }
+}
 .thumbImg{
   width: 94%;
   margin-top: 4px;
@@ -478,7 +497,7 @@
   margin: 10px 15px 10px 15px;
   border-radius: 10px;
   height: 490px;
-  width: 600px !important;
+  width: 100% !important;
   position: relative;
 }
 .infoCardCallActionContainer--BannerDos{

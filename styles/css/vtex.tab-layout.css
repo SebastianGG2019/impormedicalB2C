@@ -230,3 +230,8 @@
         margin-right: 5px;
     }
 }
+@media (min-width: 1800px) {
+    .contentItem--tabbersVitrina {
+        height: 650px;
+    }
+}
